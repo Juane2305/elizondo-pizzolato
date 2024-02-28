@@ -34,7 +34,7 @@ const Navbar = () => {
     };
   }, []);
 
-  const navClasses1 = `fixed z-20 w-full backdrop-filter backdrop-filter backdrop-blur-sm transition-all sm:backdrop-filter-none duration-300 py-3 ${scrolled ? '' : ''}`;
+  const navClasses1 = `fixed z-20 w-full backdrop-filter backdrop-filter backdrop-blur-sm transition-all sm:backdrop-filter-none duration-300 ${scrolled ? '' : ''}`;
   
 
   const navigation = [
@@ -49,20 +49,20 @@ const Navbar = () => {
     <Disclosure as="nav" className={navClasses1}>
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:4 z-20 back">
-            <div className="relative flex h-16 items-center justify-between">
+          <div className="mx-auto z-20 back">
+            <div className="relative flex  items-center justify-between">
               
               <div className='w-full'>
-                <div className="flex justify-between items-center">
-                  <a href='#home' className="bg-white rounded-full shadow-xl sm:flex z-30 duration-300 cursor-pointer py-2 px-4 hover:animate-jiggle"><h2>Logo</h2></a>
-                  <div className='hidden lg:flex lg:justify-center lg:items-center gap-7 bg-white rounded-md z-20 shadow-xl px-4 py-2'>
+                <div className="flex justify-between items-center backdrop-filter backdrop-blur-sm py-4 px-10">
+                  <a href='#home' className=" sm:flex z-30 duration-300 cursor-pointer py-2 px-4 hover:animate-jiggle  font-bold"><h2>Logo</h2></a>
+                  <div className='hidden lg:flex lg:justify-center lg:items-center gap-10  rounded-md z-20 py-2'>
                       {navigation.map((item) => (
                         <a
                           key={item.id}
                           href={item.href}
                           onClick={() => handleClick(item.id)}
                           className={classNames(
-                            item.current ? 'transform hover:scale-110 duration-500 text-[#66a295]' : 'text-blue-900 hover:text-blue-800 transform hover:scale-105 duration-500',
+                            item.current ? 'transform hover:scale-110 duration-500 text-[#66a295]' : 'text-white hover:text-blue-900 transform hover:scale-105 duration-300',
                             'rounded-md text-[15px] font-bold 2xl:text-base'
                           )}
                           aria-current={item.current ? 'page' : undefined}

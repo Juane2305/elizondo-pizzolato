@@ -6,11 +6,9 @@ const Hero = () => {
     return (
         <div>
             <ImageSlider/>
-            <section>
-                <div className='text-center pt-10'>
-                    <h1 className='text-[2rem] font-bold'>Asegura tu futuro: Seguros Patrimoniales y de Vida.</h1>
-                </div>
-                <div>
+            <section className='text-center mt-16'>
+                    <h1 className='text-[2rem] font-bold text-blue-950'>Cuidá lo que te importa</h1>
+                <div className='bg-blue-950 my-16'>
                     <CardHoverEffect/>
                 </div>
             </section>

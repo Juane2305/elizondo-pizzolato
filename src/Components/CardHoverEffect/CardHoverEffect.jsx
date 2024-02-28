@@ -2,14 +2,14 @@ import {HoverEffect}  from "../ui/card-hover-effect";
  
 export function CardHoverEffect() {
   return (
-    <div className="max-w-5xl mx-auto px-8">
+    <div className="max-w-4xl mx-auto px-8">
       <HoverEffect items={projects} />
     </div>
   );
 }
 export const projects = [
   {
-    title: "Seguros de vida",
+    title: "Seguros de personas",
     description:
       "A technology company that builds economic infrastructure for the internet.",
     link: "https://stripe.com",

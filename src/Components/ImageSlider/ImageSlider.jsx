@@ -27,7 +27,7 @@ export function ImageSlider() {
         <motion.p className="font-bold text-xl md:text-6xl text-center md:text-start  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
         Protegiendo lo más <br /> importante
         </motion.p>
-        <button className="px-4 py-2 backdrop-blur-sm border bg-blue-900/20 border-blue-950/20 text-white mx-auto md:mr-auto md:mx-0  text-center rounded-full relative mt-4">
+        <button className="px-4 py-2 backdrop-blur-sm border bg-blue-900/20 border-blue-950/20 text-white mx-auto md:mr-auto md:mx-0  text-center rounded-sm relative mt-4">
           <span>Seguros patrimoniales y de vida →</span>
           <div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-gray-600 to-transparent" />
         </button>
