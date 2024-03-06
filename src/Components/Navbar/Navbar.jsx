@@ -55,7 +55,7 @@ const Navbar = () => {
               <div className='w-full'>
                 <div className="flex justify-between items-center backdrop-filter backdrop-blur-sm py-4 px-10">
                   <a href='#home' className=" sm:flex z-30 duration-300 cursor-pointer py-2 px-4 hover:animate-jiggle  font-bold"><h2>Logo</h2></a>
-                  <div className='hidden lg:flex lg:justify-center lg:items-center gap-10  rounded-md z-20 py-2'>
+                  <div className='hidden lg:flex lg:justify-center lg:items-center gap-10  rounded-md z-20 py-4'>
                       {navigation.map((item) => (
                         <a
                           key={item.id}

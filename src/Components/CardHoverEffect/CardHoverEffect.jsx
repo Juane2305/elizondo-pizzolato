@@ -2,22 +2,28 @@ import {HoverEffect}  from "../ui/card-hover-effect";
  
 export function CardHoverEffect() {
   return (
-    <div className="max-w-4xl mx-auto px-8">
+    <div className="max-w-4xl w-[20rem] md:w-[45rem] xl:w-[60rem] lg:px-0">
       <HoverEffect items={projects} />
     </div>
   );
 }
 export const projects = [
   {
-    title: "Seguros de personas",
+    title: "Seguros para personas",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
+      "Garantiza tu tranquilidad y la de tus seres queridos con nuestras soluciones personalizadas para la salud y el futuro financiero.",
     link: "https://stripe.com",
   },
   {
-    title: "Seguros patrimoniales",
+    title: "Seguros para profesionales",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+      "Protege tus bienes y propiedades con nuestra cobertura confiable ante imprevistos.",
     link: "https://netflix.com",
+  },
+  {
+    title: "Seguros para empresas",
+    description:
+      "Planifica hoy para disfrutar mañana con nuestras opciones de inversión y ahorro diseñadas para una jubilación segura y sin preocupaciones.",
+    link: "https://facebook.com",
   },
 ];
