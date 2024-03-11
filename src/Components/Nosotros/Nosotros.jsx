@@ -1,4 +1,7 @@
 import React from 'react';
+import { HiOutlineUserGroup } from "react-icons/hi2";
+import { GoGoal } from "react-icons/go";
+import { IoBriefcaseOutline } from "react-icons/io5";
 
 const Nosotros = () => {
     return (
@@ -7,15 +10,16 @@ const Nosotros = () => {
           <div className="w-full flex justify-center items-center">
             <div className="border-t-2 border-blue-950 w-[20%] animate-pulse duration-2000"></div>
           </div>
-          <h2 className=" text-center text-blue-950 text-6xl font-fairplay mt-16">
+          <h2 className=" text-center text-blue-950 text-5xl font-fairplay mt-16">
             Sobre Nosotros
           </h2>
-          <div className="h-[30rem] w-[60%] flex flex-col justify-center items-center space-y-12 pt-28">
+          <div className="flex flex-col lg:flex-row justify-center items-center pt-20 space-y-20 lg:space-y-0 lg:space-x-20 lg:px-[2rem] xl:px-[8rem]">
             <div className="flex flex-col items-center justify-center">
-              <h3 className="text-[25px] text-center pb-5 font-fairplay font-semibold">
+              <HiOutlineUserGroup className='size-12'/>
+              <h3 className="text-2xl text-center pb-5 font-fairplay font-semibold">
                 ¿Quiénes somos?
               </h3>
-              <p className="font-light w-[60%] text-center">
+              <p className="font-light text-center px-5 sm:px-32 lg:px-0">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi,
                 repudiandae nesciunt eaque placeat, excepturi distinctio soluta
                 asperiores blanditiis recusandae quae porro amet nemo delectus.
@@ -23,10 +27,11 @@ const Nosotros = () => {
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <h3 className="text-[25px] text-center pb-5 font-fairplay font-semibold">
+              <GoGoal  className='size-12'/>
+              <h3 className="text-2xl text-center pb-5 font-fairplay font-semibold">
                 Misión
               </h3>
-              <p className="font-light w-[60%] text-center">
+              <p className="font-light text-center px-5 sm:px-32 lg:px-0">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi,
                 repudiandae nesciunt eaque placeat, excepturi distinctio soluta
                 asperiores blanditiis recusandae quae porro amet nemo delectus.
@@ -34,10 +39,11 @@ const Nosotros = () => {
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <h3 className="text-[25px] text-center pb-5 font-fairplay font-semibold">
+              <IoBriefcaseOutline className='size-12'/>
+              <h3 className="text-2xl text-center pb-5 font-fairplay font-semibold">
                 Experiencia
               </h3>
-              <p className="font-light w-[60%] text-center">
+              <p className="font-light text-center px-5 sm:px-32 lg:px-0">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi,
                 repudiandae nesciunt eaque placeat, excepturi distinctio soluta
                 asperiores blanditiis recusandae quae porro amet nemo delectus.
@@ -46,7 +52,7 @@ const Nosotros = () => {
             </div>
           </div>
         </div>
-        <div className='w-full flex justify-center items-center pt-10'>
+        <div className='w-full flex justify-center items-center pt-32'>
                 <div className="border-t-2 border-blue-950 w-[20%] my-16 animate-pulse duration-2000"></div>
             </div>
       </div>

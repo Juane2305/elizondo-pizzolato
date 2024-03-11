@@ -53,16 +53,16 @@ const Navbar = () => {
             <div className="relative flex  items-center justify-between">
               
               <div className='w-full'>
-                <div className="flex justify-between items-center backdrop-filter backdrop-blur-sm py-4 px-10">
+                <div className="flex justify-between items-center bg-blue-950 py-4 px-10">
                   <a href='#home' className=" sm:flex z-30 duration-300 cursor-pointer py-2 px-4 hover:animate-jiggle  font-bold"><h2>Logo</h2></a>
-                  <div className='hidden lg:flex lg:justify-center lg:items-center gap-10  rounded-md z-20 py-4'>
+                  <div className='hidden lg:flex lg:justify-center lg:items-center gap-10  rounded-md z-50 py-4'>
                       {navigation.map((item) => (
                         <a
                           key={item.id}
                           href={item.href}
                           onClick={() => handleClick(item.id)}
                           className={classNames(
-                            item.current ? 'transform hover:scale-110 duration-500 text-[#66a295]' : 'text-white hover:text-blue-900 transform hover:scale-105 duration-300',
+                            item.current ? 'transform hover:scale-110 duration-500 text-[#76cff1]' : 'text-white hover:text-slate-300 transform hover:scale-105 duration-200',
                             'rounded-md text-[15px] font-bold 2xl:text-base'
                           )}
                           aria-current={item.current ? 'page' : undefined}
