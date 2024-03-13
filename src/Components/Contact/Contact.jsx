@@ -5,7 +5,7 @@ const Contact = () => {
     <div className='flex flex-col lg:flex-row justify-center items-center lg:space-x-52 pb-20 px-10'>
       <section className='space-y-16 flex flex-col items-center lg:items-start'>
         <article>
-            <h2 className='text-5xl font-fairplay text-blue-950 text-center'>Contactanos</h2>
+            <h2 className='text-5xl font-fairplay text-blue-950 text-center'>Contáctanos</h2>
         </article>
         <article className='space-y-10'>
             <div>
@@ -14,7 +14,7 @@ const Contact = () => {
             </div>
             <div>
                 <h3 className='text-xl font-semibold text-blue-950'>Celular</h3>
-                <span className='opacity-70'>+542612404253</span>
+                <span className='opacity-70'>+542613677606</span>
             </div>
         </article>
       </section>

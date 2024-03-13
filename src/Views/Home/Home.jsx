@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from '../../Components/Header/Header';
 import Hero from '../../Components/Hero/Hero';
 import Nosotros from '../../Components/Nosotros/Nosotros';
 import Contact from '@/Components/Contact/Contact';
+import Navbar from '@/Components/Navbar/Navbar';
 
 const Home = () => {
     return (
         <div>
-            <Header/>
+            <Navbar/>
             <Hero/>
             <Nosotros/>
             <Contact/>

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className='bg-blue-950  pt-14'>
-            <div className='flex justify-between'>
+            <div className='flex justify-between items-center'>
                 <section>
                     <h1 className='pl-8 text-white'>logo</h1>
                 </section>
