@@ -5,56 +5,31 @@ import { IoBriefcaseOutline } from "react-icons/io5";
 
 const Nosotros = () => {
     return (
-      <div>
-        <div className="flex flex-col items-center justify-center">
-          <div className="w-full flex justify-center items-center">
-            <div className="border-t-2 border-blue-950 w-[20%] animate-pulse duration-2000"></div>
-          </div>
-          <h2 className=" text-center text-blue-950 text-5xl font-fairplay mt-16">
-            Sobre Nosotros
-          </h2>
-          <div className="flex flex-col lg:flex-row justify-center items-center pt-20 space-y-20 lg:space-y-0 lg:space-x-20 lg:px-[2rem] xl:px-[8rem]">
-            <div className="flex flex-col items-center justify-center">
-              <HiOutlineUserGroup className='size-12'/>
-              <h3 className="text-2xl text-center pb-5 font-fairplay font-semibold">
-                ¿Quiénes somos?
-              </h3>
-              <p className="font-light text-center px-5 sm:px-32 lg:px-0">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi,
-                repudiandae nesciunt eaque placeat, excepturi distinctio soluta
-                asperiores blanditiis recusandae quae porro amet nemo delectus.
-                Similique sapiente magnam quae saepe laborum.
-              </p>
+      <div className='flex justify-center items-start gap-10 px-20 py-10'>
+        <section className='w-1/2 flex flex-col gap-3'>
+          <h2 className='text-6xl font-bold text-[#0830A6]'>Nos centramos en el beneficio del cliente</h2>
+          <p className='text-[#f29494] font-bold border-[#f29494] border-b-2  pb-1 w-[8rem]'>SEGUROS</p>
+          <p className='pt-3 text-sm opacity-60 font-medium w-[80%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque est neque, commodo et magna in, dapibus egestas mauris. Nunc condimentum iaculis sapien quis ultrices.</p>
+          <article className='flex flex-col gap-8 pt-3'>
+            <div className='flex justify-start items-center gap-1'>
+              <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710458452/Pizzolato/shield-halved-solid_ykfq6d.svg" alt="" className='w-5'/>
+              <p className='text-[#0830A6] text-sm font-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis iste quisquam</p>
             </div>
-            <div className="flex flex-col items-center">
-              <GoGoal  className='size-12'/>
-              <h3 className="text-2xl text-center pb-5 font-fairplay font-semibold">
-                Misión
-              </h3>
-              <p className="font-light text-center px-5 sm:px-32 lg:px-0">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi,
-                repudiandae nesciunt eaque placeat, excepturi distinctio soluta
-                asperiores blanditiis recusandae quae porro amet nemo delectus.
-                Similique sapiente magnam quae saepe laborum.
-              </p>
+            <div className='flex justify-start items-center gap-1'>
+              <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710458452/Pizzolato/shield-halved-solid_ykfq6d.svg" alt="" className='w-5'/>
+              <p className='text-[#0830A6] text-sm font-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis iste quisquam</p>
             </div>
-            <div className="flex flex-col items-center">
-              <IoBriefcaseOutline className='size-12'/>
-              <h3 className="text-2xl text-center pb-5 font-fairplay font-semibold">
-                Experiencia
-              </h3>
-              <p className="font-light text-center px-5 sm:px-32 lg:px-0">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi,
-                repudiandae nesciunt eaque placeat, excepturi distinctio soluta
-                asperiores blanditiis recusandae quae porro amet nemo delectus.
-                Similique sapiente magnam quae saepe laborum.
-              </p>
+            <div className='flex justify-start items-center gap-1'>
+              <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710458452/Pizzolato/shield-halved-solid_ykfq6d.svg" alt="" className='w-5'/>
+              <p className='text-[#0830A6] text-sm font-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis iste quisquam</p>
             </div>
-          </div>
-        </div>
-        <div className='w-full flex justify-center items-center pt-32'>
-                <div className="border-t-2 border-blue-950 w-[20%] my-16 animate-pulse duration-2000"></div>
-            </div>
+          </article>
+        </section>
+        <section  className='w-1/2 relative'>
+          <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710457786/Pizzolato/Seguros-19_lozatf.webp" alt="" className='shadow-xl rounded-tl-[6rem]'/>
+          <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710459454/Pizzolato/Rectangle_5_1_wolcxp.svg" alt="" className='absolute -bottom-8 right-0 -z-10 animate-pulse'/>
+          <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710459950/Pizzolato/asset_2_o8fnn4.svg" alt="" className='absolute -top-10 -right-10 -z-10 animate-pulse w-28'/>
+        </section>
       </div>
     );
 };

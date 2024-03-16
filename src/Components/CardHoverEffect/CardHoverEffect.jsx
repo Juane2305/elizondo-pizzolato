@@ -7,7 +7,8 @@ export function CardHoverEffect() {
     </div>
   );
 }
-export const projects = [
+
+const projects = [
   {
     title: "Seguros para personas",
     description:
