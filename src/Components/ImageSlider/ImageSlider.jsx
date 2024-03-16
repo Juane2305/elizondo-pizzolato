@@ -9,7 +9,7 @@ export function ImageSlider() {
     "https://res.cloudinary.com/dfschbyq2/image/upload/v1709595471/StockSnap_AUPZKQYCJS_1_ogoc5n.jpg"
   ];
   return (
-    <ImagesSlider className="h-[48rem]" images={images}>
+    <ImagesSlider className="h-screen" images={images}>
       <motion.div
         initial={{
           opacity: 0,
