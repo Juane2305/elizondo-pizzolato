@@ -2,10 +2,10 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='flex flex-col lg:flex-row justify-center items-start gap-20 py-20 bg-[#fbfbfb]'>
+    <div className='flex flex-col lg:flex-row justify-center items-start gap-20 py-28 bg-[#fbfbfb]'>
       <section className='flex flex-col items-start justify-start'>
         <article className='flex flex-col gap-3'>
-          <h2 className='text-4xl font-bold text-[#0830A6]'>Consulta tus dudas</h2>
+          <h2 className='text-4xl font-bold text-[#0830A6]'>Consultá tus dudas</h2>
           <p className='text-[#f29494] font-bold border-[#f29494] border-b-2 text-sm pb-1 w-[8rem]'>CONTACTO</p>
           <div className='pt-5 flex flex-col gap-5'>
               <article className='bg-white shadow-xl p-4 border-r-[2rem] rounded-tr-[5rem] border-[#f29494]'>
