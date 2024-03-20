@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 
 const Seguros = () => {
   return (
-        <div className='w-full flex flex-col justify-center items-center gap-3 py-10 px-10 2xl:px-20'>
-            <h2 className='text-6xl font-bold text-[#0830A6]'>Contratá tu seguro</h2>
-            <p className='text-[#f29494] font-bold border-[#f29494] border-b-2 pb-1 w-[8rem] text-center'>SEGUROS</p>
+        <div id='seguros' className='w-full flex flex-col justify-center items-center gap-3 py-28 px-10 2xl:px-20'>
+            <h2 className='text-4xl font-bold text-[#0830A6]'>Contratá tu seguro</h2>
+            <p className='text-[#f29494] font-bold border-[#f29494] border-b-2 pb-1 w-[8rem] text-center text-sm'>SEGUROS</p>
             <section className='py-10 flex justify-center items-center gap-10'>
                 <article className='bg-white w-full flex flex-col gap-4 group rounded-tr-[6rem] hover:shadow-xl duration-500'>
                     <div className='relative'>

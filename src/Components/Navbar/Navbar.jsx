@@ -34,12 +34,12 @@ const Navbar = () => {
     };
   }, []);
 
-  const navClasses1 = `fixed z-20 w-full backdrop-filter backdrop-filter backdrop-blur-sm transition-all sm:backdrop-filter-none duration-300 ${scrolled ? '' : ''}`;
+  const navClasses1 = `fixed z-30 w-full backdrop-filter backdrop-filter backdrop-blur-sm transition-all sm:backdrop-filter-none duration-300 shadow-xl ${scrolled ? '' : ''}`;
   
 
   const navigation = [
     {id:1, name: <span>Inicio</span>, href: '/', current: current === 1  },
-    {id:2, name: <span>Seguros</span>, href: '#servicios', current: current === 2 },
+    {id:2, name: <span>Seguros</span>, href: '#seguros', current: current === 2 },
     {id:3, name: <span>Sobre Nosotros</span>, href: '#nosotros', current: current === 3 },
     {id:4, name: <span>Contacto</span>, href: '#contact', current: current === 4 },
   ]
@@ -49,11 +49,11 @@ const Navbar = () => {
     <Disclosure as="nav" className={navClasses1}>
       {({ open }) => (
         <>
-          <div className="mx-auto z-20 back">
+          <div className="mx-auto z-30 back">
             <div className="relative flex  items-center justify-between">
               
               <div className='w-full'>
-                <div className="flex justify-between items-center bg-blue-950 py-2 px-10">
+                <div className="flex justify-between items-center bg-[#0830A6] py-2 px-10">
                   <a href='#home' className=" sm:flex z-30 duration-300 cursor-pointer py-2 px-4 hover:animate-jiggle  font-bold"><h2>Logo</h2></a>
                   <div className='hidden lg:flex lg:justify-center lg:items-center gap-10  rounded-md z-50 py-4'>
                       {navigation.map((item) => (
@@ -62,7 +62,7 @@ const Navbar = () => {
                           href={item.href}
                           onClick={() => handleClick(item.id)}
                           className={classNames(
-                            item.current ? 'transform hover:scale-110 duration-500 text-[#76cff1]' : 'text-white hover:text-slate-300 transform hover:scale-105 duration-200',
+                            item.current ? 'transform hover:scale-110 duration-500 text-[#F29494]' : 'text-white hover:text-[#F29494] transform hover:scale-105 duration-200',
                             'rounded-md text-[15px] font-bold 2xl:text-base'
                           )}
                           aria-current={item.current ? 'page' : undefined}

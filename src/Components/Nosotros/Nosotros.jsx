@@ -7,8 +7,8 @@ const Nosotros = () => {
     return (
       <div className='flex justify-center items-start gap-10 px-20 py-10'>
         <section className='w-1/2 flex flex-col gap-3'>
-          <h2 className='text-6xl font-bold text-[#0830A6]'>Nos centramos en el beneficio del cliente</h2>
-          <p className='text-[#f29494] font-bold border-[#f29494] border-b-2  pb-1 w-[8rem]'>SEGUROS</p>
+          <h2 className='text-4xl font-bold text-[#0830A6]'>Nos centramos en el beneficio del cliente</h2>
+          <p className='text-[#f29494] font-bold border-[#f29494] border-b-2 text-sm pb-1 w-[8rem]'>SEGUROS</p>
           <p className='pt-3 text-sm opacity-60 font-medium w-[80%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque est neque, commodo et magna in, dapibus egestas mauris. Nunc condimentum iaculis sapien quis ultrices.</p>
           <article className='flex flex-col gap-8 pt-3'>
             <div className='flex justify-start items-center gap-1'>

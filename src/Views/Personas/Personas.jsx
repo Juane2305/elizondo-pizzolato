@@ -1,29 +1,36 @@
 import { AnimatedPin } from '@/Components/AnimatedPin/AnimatedPin'
 import React from 'react'
 import { Link } from 'react-router-dom'
+import personas from '../Personas/personas.json'
 
 const Personas = () => {
   return (
-    <div className='pt-28 bg-[url("https://res.cloudinary.com/dfschbyq2/image/upload/v1710273702/cornered-stairs_1_zhxunl.png")] bg-center bg-cover'>
-      <h2 className='pl-5 font-semibold text-blue-950 text-2xl pb-4'>Seguros para personas</h2>
-      <Link to='/' className='ml-5 border-2 px-2 rounded-full border-blue-950'>Volver al inicio</Link>
-      <div className='flex flex-col items-center justify-center '>
-        <h3 className='text-center text-2xl font-black text-blue-950'>Protege tu vida y tus bienes</h3> 
-        <p className='w-[70%] pt-7 text-center opacity-80'>Enfrenta el futuro con confianza sabiendo que <span className='text-blue-900'>estás protegido</span>. Nuestros seguros ofrecen <span className='text-blue-900'>tranquilidad y seguridad</span> para ti y tu familia en todas las áreas importantes de tu vida, desde tu hogar hasta tu vehículo y más allá. Con coberturas flexibles y atención personalizada, te brindamos la tranquilidad que necesitas para <span className='text-blue-900'>vivir sin preocupaciones</span>.</p>
-        <span className='py-5 opacity-90 font-semibold'>Cotizá tu seguro</span>
+    <div className='bg-[#f2f2f2]'>
+      <div className='relative h-[30rem] z-20'>
+        <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710808603/Pizzolato/kelly-sikkema-XXherw1ujoI-unsplash_omdnzx.jpg" alt="" className='h-full w-full object-cover brightness-[.35]'/>
+        <h1 className='absolute bottom-10 left-10 text-white font-bold text-6xl'>Seguros para personas</h1>
+        <p className='absolute bottom-5 left-10 text-white text-xl'><a href="/" className='text-[#f29494] hover:text-[#0830A6] duration-300'>HOME</a>/PERSONAS</p>
       </div>
-      <section className='flex flex-col pb-20'>
-        <article className='flex'>
-          <AnimatedPin redireccion='/personas/automotores' imagen="https://res.cloudinary.com/dfschbyq2/image/upload/v1710263333/StockSnap_LDB9JJWXQU_1_dc7h9q.jpg" titulo="Automotores" descripcion="Asegurá tu vehículo con la mejor cotización del mercado"/>
-          <AnimatedPin redireccion='/personas/hogar' imagen="https://res.cloudinary.com/dfschbyq2/image/upload/v1710263562/StockSnap_20HXQ0Y5YI_1_off4th.jpg" titulo="Hogar" descripcion="Protege tu hogar y tus bienes con nuestro seguro para propiedades."/>
-          <AnimatedPin redireccion='/personas/incendio' imagen="https://res.cloudinary.com/dfschbyq2/image/upload/v1710270356/guido-jansen-Nz-zAt4qiuU-unsplash_wft6dx.jpg" titulo="Incendio" descripcion="Asegura tus propiedades con nuestra cobertura contra incendios."/>
-        </article>
-        <article className='flex'>
-          <AnimatedPin redireccion='/personas/accidentes-personales' imagen="https://res.cloudinary.com/dfschbyq2/image/upload/v1710271012/mkjr_-2zUjvV0M9dQ-unsplash_1_aqnprr.jpg" titulo="Accidentes Personales" descripcion="Asegura tu bienestar y el de tu familia con nuestro seguro de accidentes personales."/>
-          <AnimatedPin redireccion='/personas/moto' imagen="https://res.cloudinary.com/dfschbyq2/image/upload/v1710271097/StockSnap_IDHVGQ9P8R_1_olglv0.jpg" titulo="Moto" descripcion="Seguridad sobre dos ruedas. Asegura tu moto con nosotros."/>
-          <AnimatedPin redireccion='/personas/responsabilidad-civil' imagen="https://res.cloudinary.com/dfschbyq2/image/upload/v1710271163/seguro-responsabilidad-civil-empresas_njhcih.webp" titulo="Responsabilidad Civil Profesional" descripcion="Protege tu carrera y tu negocio con nuestro seguro de responsabilidad civil profesional."/>
-        </article>
-
+      <section className='flex flex-col justify-center items-center gap-5 py-20 relative z-10'>
+        <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710860408/Pizzolato/asset_7_xdpjnm.svg" alt="" className='absolute -z-10 -left-16 w-[25rem] opacity-60'/>
+        <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710860408/Pizzolato/asset_7_xdpjnm.svg" alt="" className='absolute -z-50 right-0 w-[25rem] rotate-180 top-[20rem] opacity-60'/>
+        <h2 className='text-5xl font-bold text-[#0830A6]'>Protegé tu vida y tus bienes</h2>
+        <p className='w-[60%] text-center text-gray-500 font-medium'>
+        Enfrentá el futuro con confianza sabiendo que <span className='text-[#0830A6]'>estás protegido</span>. Nuestros seguros ofrecen <span className='text-[#0830A6]'>tranquilidad y seguridad</span> para vos y tu familia en todas las áreas importantes de tu vida, desde tu hogar hasta tu vehículo y más allá. Con coberturas flexibles y atención personalizada, te brindamos la tranquilidad que necesitas para <span className='text-[#0830A6]'>vivir sin preocupaciones</span>
+        </p>
+      </section>
+      <section className='flex justify-center items-center gap-10 flex-wrap pb-10'>
+        {personas.map((persona) =>(
+          <Link to={`/personas/${persona.target}`} key={persona.id} className='w-[30rem] h-[15rem] flex justify-between items-center gap-4 bg-white shadow-xl hover:scale-[1.03] duration-300 z-10'>
+            <div className='w-1/2 pl-5 flex flex-col gap-2'>
+              <h2 className='text-[#0830A6] font-bold text-2xl'>{persona.title}</h2>
+              <p className='text-gray-500 text-sm font-medium'>{persona.description}</p>
+            </div>
+            <div className='border-l-[1rem] border-[#f29494] rounded-bl-[15rem] w-1/2 h-full'>
+              <img src={persona.image} alt="" className='w-full h-full object-cover rounded-bl-[15rem]'/>
+            </div>
+          </Link>
+        ))}
       </section>
     </div>
   )

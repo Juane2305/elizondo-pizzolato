@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710263333/StockSnap_LDB9JJWXQU_1_dc7h9q.jpg",
+        "title": "Automotores",
+        "description": "Asegurá tu vehículo con la mejor cotización del mercado",
+        "target": "automotores"
+    },
+    {
+        "id": 2,
+        "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710263562/StockSnap_20HXQ0Y5YI_1_off4th.jpg",
+        "title": "Hogar",
+        "description": "Protegé tu hogar y tus bienes con nuestro seguro para propiedades.",
+        "target": "hogar"
+    },
+    {
+        "id": 3,
+        "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710271012/mkjr_-2zUjvV0M9dQ-unsplash_1_aqnprr.jpg",
+        "title": "Accidentes personales",
+        "description": "Asegurá tu bienestar y el de tu familia con nuestro seguro de accidentes personales.",
+        "target": "accidentes-personales"
+    },
+    {
+        "id": 4,
+        "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710271097/StockSnap_IDHVGQ9P8R_1_olglv0.jpg",
+        "title": "Moto",
+        "description": "Seguridad sobre dos ruedas. Asegurá tu moto con nosotros.",
+        "target": "moto"
+    },
+    {
+        "id": 5,
+        "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710270356/guido-jansen-Nz-zAt4qiuU-unsplash_wft6dx.jpg",
+        "title": "Incendio",
+        "description": "Asegurá tus propiedades con nuestra cobertura contra incendios.",
+        "target": "incendio"
+    },
+    {
+        "id": 6,
+        "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710271163/seguro-responsabilidad-civil-empresas_njhcih.webp",
+        "title": "Responsabilidad Civil Profesional",
+        "description": "Protegé tu carrera y tu negocio con nuestro seguro de responsabilidad civil profesional.",
+        "target": "responsabilidad-civil-profesional"
+    }
+]
