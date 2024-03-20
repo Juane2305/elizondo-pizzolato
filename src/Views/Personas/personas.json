@@ -23,9 +23,9 @@
     {
         "id": 4,
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710271097/StockSnap_IDHVGQ9P8R_1_olglv0.jpg",
-        "title": "Moto",
+        "title": "Motos",
         "description": "Seguridad sobre dos ruedas. Asegurá tu moto con nosotros.",
-        "target": "moto"
+        "target": "motos"
     },
     {
         "id": 5,
