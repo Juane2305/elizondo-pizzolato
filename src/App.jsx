@@ -8,6 +8,7 @@ import PlanFuturo from "./Views/Retiro/Planes/PlanFuturo/PlanFuturo"
 import PlanProyecto from "./Views/Retiro/Planes/PlanProyecto/PlanProyecto"
 import PlanInversorGold from "./Views/Retiro/Planes/PlanInversorGold/PlanInversorGold"
 import Footer from "./Components/Footer/Footer"
+import DetailPersonas from "./Views/Personas/DetailPersonas/DetailPersonas"
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/personas" element={<Personas/>}/>
+        <Route path="/personas/:title" element={<DetailPersonas/>}/>
         <Route path="/retiro" element={<Retiro/>}/>
         <Route path="/retiro/plan-futuro" element={<PlanFuturo/>}/>
         <Route path="/retiro/plan-proyecto" element={<PlanProyecto/>}/>
