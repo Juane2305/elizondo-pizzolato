@@ -1,0 +1,65 @@
+[
+    {
+        "id": 2,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710989621/prevencionsart2_w3rksf.jpg",
+        "title": "A.R.T.",
+        "description": "Asegurá tu personal con el respaldo de la aseguradora número uno en situación financiera.",
+        "target": "art"
+    },
+    {
+        "id": 3,
+        "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710271012/mkjr_-2zUjvV0M9dQ-unsplash_1_aqnprr.jpg",
+        "title": "Accidentes personales",
+        "description": "Asegurá tu bienestar y el de tu familia con nuestro seguro de accidentes personales.",
+        "target": "accidentes-personales"
+    },
+    {
+        "id": 4,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710989792/stock-3237514_1920-e1568822162583_zis8eh.jpg",
+        "title": "Integral de comercio",
+        "description": "Te ofrecemos una solución totalmente flexible para proteger los bienes de tu oficina, negocio o industria.",
+        "target": "integral-de-comercio"
+    },
+    {
+        "id": 5,
+        "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710270356/guido-jansen-Nz-zAt4qiuU-unsplash_wft6dx.jpg",
+        "title": "Incendio",
+        "description": "Asegurá tus propiedades con nuestra cobertura contra incendios.",
+        "target": "incendio"
+    },
+    {
+        "id": 6,
+        "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710271163/seguro-responsabilidad-civil-empresas_njhcih.webp",
+        "title": "Responsabilidad Civil Profesional",
+        "description": "Protegé tu carrera y tu negocio con nuestro seguro de responsabilidad civil profesional.",
+        "target": "responsabilidad-civil-profesional"
+    },
+    {
+        "id": 7,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710989863/seguros-caucion_egjjfa.jpg",
+        "title": "Caución",
+        "description": "Para todas aquellas personas físicas o jurídicas que desarrollan actividades comerciales o profesionales.",
+        "target": "caucion"
+    },
+    {
+        "id": 8,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710989881/medio-transporte_jzcoic.webp",
+        "title": "Transporte de mercaderías",
+        "description": "Asegura tu carga de aquellas pérdidas que puedan sufrir durante el transporte terrestre, marítimo, y/o aéreo.",
+        "target": "transporte-de-mercaderias"
+    },
+    {
+        "id": 9,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710990082/LPS-Seguro-Tecnico-Capacitacion_bqlk8l.jpg",
+        "title": "Seguro técnico",
+        "description": "Protegé tus equipos electrónicos, maquinarias, equipos médicos o trabajos de construcción y montaje.",
+        "target": "seguro-tecnico"
+    },
+    {
+        "id": 10,
+        "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710990276/hombre-tablet-frente_bzy91q.jpg",
+        "title": "Vida colectivo",
+        "description": "Coberturas de contratación e indemnización obligatoria que te permiten cumplir con las normas específicas para cada actividad.",
+        "target": "vida-colectivo"
+    }
+]

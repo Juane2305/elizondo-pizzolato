@@ -1,23 +1,23 @@
+import React from 'react'
 import { useParams } from 'react-router-dom';
-import automotores from '../automotores.json'
+import automotores from '../../Personas/automotores.json'
 import { FaCarCrash } from "react-icons/fa";
 import { Tb24Hours } from "react-icons/tb";
 import { BsPersonFillCheck } from "react-icons/bs";
 import { TbDiscount2 } from "react-icons/tb";
 import { FaBuildingCircleCheck } from "react-icons/fa6";
 
-const DetailAutomotores = () => {
+const DetailEmpresasAutomotores = () => {
 
   const { target } = useParams(); 
   const automotoresDetail = automotores.find(automotor => automotor.target === target);
-  console.log(automotoresDetail);
 
   return (
     <div className='bg-[#f2f2f2]'>
       <div className='relative h-[30rem] z-20'>
         <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710808603/Pizzolato/kelly-sikkema-XXherw1ujoI-unsplash_omdnzx.jpg" alt="" className='h-full w-full object-cover brightness-[.35]'/>
         <h1 className='absolute bottom-10 left-10 text-white font-bold text-6xl'>Seguros para {automotoresDetail.target}</h1>
-        <p className='absolute bottom-5 left-10 text-white text-base'><a href="/" className='text-[#f29494] hover:text-[#0830A6] duration-300'>HOME</a>/<a href='/personas' className='text-[#f29494] hover:text-[#0830A6] duration-300'>PERSONAS</a>/{automotoresDetail.title.toUpperCase()}</p>
+        <p className='absolute bottom-5 left-10 text-white text-base'><a href="/" className='text-[#f29494] hover:text-[#0830A6] duration-300'>HOME</a>/<a href='/empresas' className='text-[#f29494] hover:text-[#0830A6] duration-300'>EMPRESAS</a>/{automotoresDetail.title.toUpperCase()}</p>
       </div>
       <section className='flex flex-col justify-center items-center gap-5 pt-20 pb-10 relative z-10'>
         <h2 className='text-5xl font-bold text-[#0830A6] w-[70%] text-center'>{automotoresDetail.description}</h2>
@@ -112,4 +112,4 @@ const DetailAutomotores = () => {
   )
 }
 
-export default DetailAutomotores
+export default DetailEmpresasAutomotores
