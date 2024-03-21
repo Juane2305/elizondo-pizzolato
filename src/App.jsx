@@ -8,8 +8,10 @@ import PlanFuturo from "./Views/Retiro/Planes/PlanFuturo/PlanFuturo"
 import PlanProyecto from "./Views/Retiro/Planes/PlanProyecto/PlanProyecto"
 import PlanInversorGold from "./Views/Retiro/Planes/PlanInversorGold/PlanInversorGold"
 import Footer from "./Components/Footer/Footer"
-import DetailPersonas from "./Views/Personas/DetailPersonas/DetailAutomotores"
+import DetailPersonas from "./Views/Personas/DetailPersonas/DetailPersonas"
 import DetailAutomotores from "./Views/Personas/DetailPersonas/DetailAutomotores"
+import DetailEmpresasAutomotores from "./Views/Empresas/DetailEmpresas/DetailEmpresasAutomotores"
+import DetailEmpresas from "./Views/Empresas/DetailEmpresas/DetailEmpresas"
 
 
 function App() {
@@ -20,7 +22,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/personas" element={<Personas/>}/>
-        <Route path="/personas/:target" element={<DetailAutomotores/>}/>
+        <Route path="/personas/vehiculos/:target" element={<DetailAutomotores/>}/>
+        <Route path="/personas/:target" element={<DetailPersonas/>}/>
+        <Route path="/empresas/vehiculos/:target" element={<DetailEmpresasAutomotores/>}/>
+        <Route path="/empresas/:target" element={<DetailEmpresas/>}/>
         <Route path="/retiro" element={<Retiro/>}/>
         <Route path="/retiro/plan-futuro" element={<PlanFuturo/>}/>
         <Route path="/retiro/plan-proyecto" element={<PlanProyecto/>}/>

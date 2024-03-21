@@ -1,12 +1,5 @@
 [
     {
-        "id": 1,
-        "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710263333/StockSnap_LDB9JJWXQU_1_dc7h9q.jpg",
-        "title": "Automotores",
-        "description": "Asegurá tu vehículo con la mejor cotización del mercado",
-        "target": "automotores"
-    },
-    {
         "id": 2,
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710263562/StockSnap_20HXQ0Y5YI_1_off4th.jpg",
         "title": "Hogar",
@@ -19,13 +12,7 @@
         "title": "Accidentes personales",
         "description": "Asegurá tu bienestar y el de tu familia con nuestro seguro de accidentes personales.",
         "target": "accidentes-personales"
-    },
-    {
-        "id": 4,
-        "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710271097/StockSnap_IDHVGQ9P8R_1_olglv0.jpg",
-        "title": "Motos",
-        "description": "Seguridad sobre dos ruedas. Asegurá tu moto con nosotros.",
-        "target": "motos"
+        
     },
     {
         "id": 5,
