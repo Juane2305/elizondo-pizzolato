@@ -9,19 +9,19 @@ const Nosotros = () => {
         <section className='lg:w-1/2 flex flex-col justify-center items-center lg:justify-start lg:items-start gap-3'>
           <h2 className='text-3xl text-center lg:text-start lg:text-4xl font-bold text-[#0830A6]'>Nos centramos en el beneficio del cliente</h2>
           <p className='text-[#f29494] text-center lg:text-start font-bold border-[#f29494] border-b-2 text-sm pb-1 w-[8rem]'>SEGUROS</p>
-          <p className='pt-3 text-sm opacity-60 font-medium lg:w-[80%] text-center lg:text-start'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque est neque, commodo et magna in, dapibus egestas mauris. Nunc condimentum iaculis sapien quis ultrices.</p>
+          <p className='pt-3 text-sm opacity-70 font-medium lg:w-[80%] text-center lg:text-start'>En 'Elizondo Pizzolato', con más de 25 años de experiencia en la industria de seguros, nos comprometemos a ofrecer soluciones confiables y personalizadas para cubrir tus necesidades. Nuestra larga trayectoria en el mercado nos respalda como expertos en la protección patrimonial y personal. Con un enfoque centrado en el cliente, buscamos establecer relaciones duraderas y brindar tranquilidad en cada póliza.</p>
           <article className='flex flex-col gap-8 pt-3'>
             <div className='flex justify-start items-center gap-1'>
               <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710458452/Pizzolato/shield-halved-solid_ykfq6d.svg" alt="" className='w-5'/>
-              <p className='text-[#0830A6] text-sm font-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis iste quisquam</p>
+              <p className='text-[#0830A6] text-sm font-bold'>Experiencia y Trayectoria.</p>
             </div>
             <div className='flex justify-start items-center gap-1'>
               <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710458452/Pizzolato/shield-halved-solid_ykfq6d.svg" alt="" className='w-5'/>
-              <p className='text-[#0830A6] text-sm font-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis iste quisquam</p>
+              <p className='text-[#0830A6] text-sm font-bold'>Personalización y Atención al Cliente.</p>
             </div>
             <div className='flex justify-start items-center gap-1'>
               <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710458452/Pizzolato/shield-halved-solid_ykfq6d.svg" alt="" className='w-5'/>
-              <p className='text-[#0830A6] text-sm font-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis iste quisquam</p>
+              <p className='text-[#0830A6] text-sm font-bold'>Compromiso con la Calidad y la Confianza.</p>
             </div>
           </article>
         </section>

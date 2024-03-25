@@ -16,7 +16,7 @@ const Seguros = () => {
                     </div>
                     <div className='flex flex-col gap-2 px-5 pb-5'>
                         <h2 className='text-2xl font-bold text-[#0830A6]'>Seguro para personas</h2>
-                        <p className='text-xs opacity-60 font-medium'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae dolor dolorum similique est! Tempore iste ratione voluptatem voluptatibus dicta sapiente minima veniam quaerat, architect</p>
+                        <p className='text-xs opacity-60 font-medium'>Coberturas diseñadas para proteger lo que más valoras en la vida: tu hogar, tu vehículo, tu seguridad personal y tu responsabilidad civil. Encuentra la tranquilidad que necesitas con nuestras opciones de seguros para automóviles, motos, hogares, accidentes personales, incendios y responsabilidad civil profesional.</p>
                         <Link to="/personas" className='mt-2 border-2 w-max p-2 border-[#f29494] text-sm font-bold text-[#0830A6] hover:border-b-2 hover:border-r-white hover:border-t-white hover:border-l-white duration-500 hover:rounded-b-xl hover:text-[#f29494]'>
                             Ver más
                         </Link>
@@ -31,7 +31,7 @@ const Seguros = () => {
                     </div>
                     <div className='flex flex-col gap-2 px-5 pb-5'>
                         <h2 className='text-2xl font-bold text-[#0830A6]'>Seguro para empresas</h2>
-                        <p className='text-xs opacity-60 font-medium'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae dolor dolorum similique est! Tempore iste ratione voluptatem voluptatibus dicta sapiente minima veniam quaerat, architect</p>
+                        <p className='text-xs opacity-60 font-medium'>Ofrecemos coberturas completas para proteger tus activos comerciales y operaciones. Desde vehículos y propiedades hasta responsabilidad civil, además de opciones especializadas como A.R.T., Integral de Comercio, Caución, Transporte de Mercaderías, Seguro Técnico y Vida Colectivo. Con nuestras soluciones adaptadas a las necesidades empresariales, puedes proteger tu negocio y tus empleados con confianza.</p>
                         <Link to="/empresas" className='mt-2 border-2 w-max p-2 border-[#f29494] text-sm font-bold text-[#0830A6] hover:border-b-2 hover:border-r-white hover:border-t-white hover:border-l-white duration-500 hover:rounded-b-xl hover:text-[#f29494]'>
                             Ver más
                         </Link>
@@ -46,7 +46,7 @@ const Seguros = () => {
                     </div>
                     <div className='flex flex-col gap-2 px-5 pb-5'>
                         <h2 className='text-2xl font-bold text-[#0830A6]'>Seguro de retiro</h2>
-                        <p className='text-xs opacity-60 font-medium'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae dolor dolorum similique est! Tempore iste ratione voluptatem voluptatibus dicta sapiente minima veniam quaerat, architect</p>
+                        <p className='text-xs opacity-60 font-medium'>Ofrecemos soluciones diseñadas para brindar tranquilidad y estabilidad financiera en tus años dorados. Nuestros seguros de retiro te proporcionan la seguridad que necesitas para planificar un futuro cómodo y sin preocupaciones. Con opciones flexibles y adaptadas a tus necesidades individuales, te ayudamos a construir un camino hacia la jubilación tranquila y segura.</p>
                         <Link to="/retiro" className='mt-2 border-2 w-max p-2 border-[#f29494] text-sm font-bold text-[#0830A6] hover:border-b-2 hover:border-r-white hover:border-t-white hover:border-l-white duration-500 hover:rounded-b-xl hover:text-[#f29494]'>
                             Ver más
                         </Link>
