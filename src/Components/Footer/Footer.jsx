@@ -9,13 +9,13 @@ const Footer = () => {
                 <section>
                     <h1 className='text-white'>logo</h1>
                 </section>
-                <section className='flex flex-row-reverse justify-center items-center text-white'>
+                <section className='lg:flex lg:flex-row-reverse flex flex-col justify-center items-center text-white'>
                     <div className='flex justify-center items-center gap-3'>
                         <FaInstagram className='size-6 cursor-pointer hover:text-[#F29494] duration-300'/>
                         <FaFacebookF className='size-6 cursor-pointer hover:text-[#F29494] duration-300'/>
                         <FaWhatsapp className='size-6 cursor-pointer hover:text-[#F29494] duration-300'/>
                     </div>
-                    <div className='space-x-4 pr-6 font-medium'>
+                    <div className='space-x-4 pr-6 font-medium hidden lg:flex'>
                         <Link className='hover:text-[#F29494] duration-300'>Inicio</Link>
                         <Link className='hover:text-[#F29494] duration-300'>Seguros</Link>
                         <Link className='hover:text-[#F29494] duration-300'>Sobre Nosotros</Link>

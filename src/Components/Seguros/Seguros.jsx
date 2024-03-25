@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 
 const Seguros = () => {
   return (
-        <div id='seguros' className='w-full flex flex-col justify-center items-center gap-3 py-28 px-10 2xl:px-20'>
-            <h2 className='text-4xl font-bold text-[#0830A6]'>Contratá tu seguro</h2>
+        <div id='seguros' className='w-full flex flex-col justify-center items-center gap-3 lg:pt-28 lg:pb-28 pt-20 pb-10 px-10 2xl:px-20'>
+            <h2 className='text-center text-3xl lg:text-4xl font-bold text-[#0830A6]'>Contratá tu seguro</h2>
             <p className='text-[#f29494] font-bold border-[#f29494] border-b-2 pb-1 w-[8rem] text-center text-sm'>SEGUROS</p>
-            <section className='py-10 flex justify-center items-center gap-10'>
+            <section className='py-10 lg:flex lg:flex-row flex flex-col justify-center items-center gap-10'>
                 <article className='bg-white w-full flex flex-col gap-4 group rounded-tr-[6rem] hover:shadow-xl duration-500'>
                     <div className='relative'>
                         <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710384429/Pizzolato/jessica-rockowitz-6c4Uhhe68yQ-unsplash_dtwlcw.jpg" alt="" className='w-full h-[20rem] object-cover rounded-tr-[6rem] rounded-bl-[50%]'/>
