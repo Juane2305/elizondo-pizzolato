@@ -1,11 +1,13 @@
 import React from 'react'
-import { MdOutlineSavings } from "react-icons/md";
 import { Link } from 'react-router-dom';
-import { FaRegCircleDot } from "react-icons/fa6";
-import { RiArrowRightDoubleFill } from "react-icons/ri";
-import { FaCircleCheck } from "react-icons/fa6";
+import { useEffect } from 'react';
 
 const Profesionales = () => {
+
+  useEffect(() => {
+    // Scroll hacia arriba cuando se monta el componente
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className='bg-[#f2f2f2]'>

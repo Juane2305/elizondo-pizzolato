@@ -1,8 +1,14 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
 import personas from '../personas.json'
+import { useEffect } from 'react';
 
 const DetailPersonas = () => {
+
+  useEffect(() => {
+    // Scroll hacia arriba cuando se monta el componente
+    window.scrollTo(0, 0);
+  }, []);
 
   const { target } = useParams(); 
   const personaDetail = personas.find(persona => persona.target === target);
@@ -31,9 +37,13 @@ const DetailPersonas = () => {
                   <input type="text" placeholder='Ingresá tu nombre' className='text-sm font-medium focus:border-r-8 focus:border-[#f29494] focus:outline-none duration-300 rounded-tr-[5rem] outline-none p-4 shadow-md text-gray-500'/>
                 </div>
                 <div className='flex flex-col gap-2 w-full'>
-                  <label className='font-bold text-[#0830A6]' htmlFor="username">Correo electrónico *</label>
-                  <input type="email" placeholder='Ingresá tu correo electrónico' className='text-sm font-medium focus:border-r-8 focus:border-[#f29494] focus:outline-none duration-300 rounded-tr-[5rem] outline-none p-4 shadow-md text-gray-500'/>
+                  <label className='font-bold text-[#0830A6]' htmlFor="username">Celular *</label>
+                  <input type="email" placeholder='Ingresá tu celular' className='text-sm font-medium focus:border-r-8 focus:border-[#f29494] focus:outline-none duration-300 rounded-tr-[5rem] outline-none p-4 shadow-md text-gray-500'/>
                 </div>
+            </div>
+            <div className='flex flex-col gap-2 w-full'>
+                <label className='font-bold text-[#0830A6]' htmlFor="username">Correo electrónico *</label>
+                <input type="email" placeholder='Ingresá tu correo electrónico' className='text-sm font-medium focus:border-r-8 focus:border-[#f29494] focus:outline-none duration-300 rounded-tr-[5rem] outline-none p-4 shadow-md text-gray-500'/>
             </div>
             <div className='flex flex-col gap-2'>
                 <label className='font-bold text-[#0830A6]' htmlFor="">Seleccione el seguro *</label>

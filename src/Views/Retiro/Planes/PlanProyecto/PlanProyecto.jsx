@@ -1,8 +1,15 @@
 import React from 'react';
 import { FaRegCircleDot, FaArrowRightLong } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const PlanProyecto = () => {
+
+    useEffect(() => {
+        // Scroll hacia arriba cuando se monta el componente
+        window.scrollTo(0, 0);
+      }, []);
+
     return (
         <div className='pt-28 bg-[url("https://res.cloudinary.com/dfschbyq2/image/upload/v1710173767/Dise%C3%B1o_sin_t%C3%ADtulo_24_m0ywdj.png")] bg-center bg-no-repeat'>
             <Link to='/retiro' className='ml-10 border-2 px-3 py-1 rounded-full border-blue-950 hover:bg-blue-950 hover:text-white fixed'>Volver</Link>

@@ -1,11 +1,16 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
 import empresas from '../empresas.json'
+import { useEffect } from 'react';
 
 const DetailEmpresas = () => {
 
   const { target } = useParams(); 
   const empresaDetail = empresas.find(empresa => empresa.target === target);
+  useEffect(() => {
+    // Scroll hacia arriba cuando se monta el componente
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className='bg-[#f2f2f2]'>

@@ -31,8 +31,7 @@ const Ubicacion = () => {
                     <div className='flex flex-col lg:justify-start lg:items-start justify-center items-center gap-2'>
                         <h2 className='text-[#0830A6] text-xl font-bold'>Horarios de atención</h2>
                         <div className='flex flex-col gap-1 lg:justify-start lg:items-start justify-center items-center'>
-                            <p className='text-sm opacity-60 font-medium'>Lunes a Viernes de 08:00 a 12:00 y de 16:00 a 20:00 hs.</p>
-                            <p className='text-sm opacity-60 font-medium'>Sábados de 09:00 a 12:00 hs.</p>
+                            <p className='text-sm opacity-60 font-medium'>Lunes a Viernes de 09:00 a 14:00</p>
                         </div>
                     </div>
             </div>

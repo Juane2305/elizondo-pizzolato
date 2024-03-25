@@ -2,8 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import empresas from '../Empresas/empresas.json'
 import automotores from '../Personas/automotores.json'
+import { useEffect } from 'react';
 
 const Empresas = () => {
+
+    useEffect(() => {
+        // Scroll hacia arriba cuando se monta el componente
+        window.scrollTo(0, 0);
+      }, []);
+
     return (
         <div className='bg-[#f2f2f2]'>
             <div className='relative h-[30rem] z-20'>

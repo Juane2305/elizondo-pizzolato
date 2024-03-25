@@ -12,6 +12,7 @@ import DetailPersonas from "./Views/Personas/DetailPersonas/DetailPersonas"
 import DetailAutomotores from "./Views/Personas/DetailPersonas/DetailAutomotores"
 import DetailEmpresasAutomotores from "./Views/Empresas/DetailEmpresas/DetailEmpresasAutomotores"
 import DetailEmpresas from "./Views/Empresas/DetailEmpresas/DetailEmpresas"
+import WhatsappButton from "./Components/WhatsappButton/WhatsappButton"
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path="/retiro/plan-inversor-gold" element={<PlanInversorGold/>}/>
         <Route path="/empresas" element={<Empresas/>}/>
       </Routes>
+      <WhatsappButton/>
       <Footer/>
     </BrowserRouter>
   )
