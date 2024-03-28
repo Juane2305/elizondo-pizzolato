@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import automotores from '../automotores.json'
 import { FaCarCrash } from "react-icons/fa";
 import { Tb24Hours } from "react-icons/tb";
@@ -22,8 +22,8 @@ const DetailAutomotores = () => {
     <div className='bg-[#f2f2f2]'>
       <div className='relative h-[30rem] z-20'>
         <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710808603/Pizzolato/kelly-sikkema-XXherw1ujoI-unsplash_omdnzx.jpg" alt="" className='h-full w-full object-cover brightness-[.35]'/>
-        <h1 className='absolute bottom-10 left-5 lg:left-10 text-white font-bold text-4xl lg:text-6xl'>Seguros para {automotoresDetail.target}</h1>
-        <p className='absolute bottom-5 left-5 lg:left-10 text-white lg:text-xl'><a href="/" className='text-[#f29494] hover:text-[#0830A6] duration-300'>HOME</a>/<a href='/personas' className='text-[#f29494] hover:text-[#0830A6] duration-300'>PERSONAS</a>/{automotoresDetail.title.toUpperCase()}</p>
+        <h1 className='absolute bottom-16 left-5 lg:left-10 text-white font-bold text-4xl lg:text-6xl'>Seguros para {automotoresDetail.target}</h1>
+        <p className='absolute bottom-5 left-5 lg:left-10 text-white lg:text-xl'><Link to="/" className='text-[#f29494] hover:text-white duration-300'>HOME</Link>/<Link to='/personas' className='text-[#f29494] hover:text-white duration-300'>PERSONAS</Link>/{automotoresDetail.title.toUpperCase()}</p>
       </div>
       <section className='flex flex-col justify-center items-center gap-5 pt-20 pb-10 relative z-10  cursor-default'>
         <h2 className='lg:text-5xl font-bold text-[#0830A6] lg:w-[70%] px-5 text-3xl text-center'>{automotoresDetail.description}</h2>
@@ -80,7 +80,7 @@ const DetailAutomotores = () => {
       </section>
       <section className='flex justify-center items-center gap-10 px-10 py-20  cursor-default'>
         <div className='hidden lg:block h-[30rem] w-[50%] rounded-bl-[40rem] rounded-tl-[6rem] border-l-[1rem] border-[#F29494] relative z-10'>
-                <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710807699/Pizzolato/fondo-familia-feliz_ul4eh6.png" alt="" className='w-full h-full object-cover rounded-bl-[25rem] rounded-tl-[5rem]'/>
+                <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1711602630/fondo-familia-feliz_ul4eh6_upscayl_2x_realesrgan-x4plus_iyuupc.png" alt="" className='w-full h-full object-cover rounded-bl-[25rem] rounded-tl-[5rem]'/>
                 <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710816213/Pizzolato/Vector_1_scvdbk.svg" alt="" className='absolute top-0 right-20 -z-10 w-[20rem] animate-pulse'/>
         </div>
         <div className='lg:w-[50%] flex flex-col gap-3'>

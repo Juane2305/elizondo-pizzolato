@@ -4,6 +4,7 @@
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710263562/StockSnap_20HXQ0Y5YI_1_off4th.jpg",
         "title": "Hogar",
         "description": "Protegé tu hogar y tus bienes con nuestro seguro para propiedades.",
+        "text":"El seguro de hogar brinda protección contra una variedad de riesgos que pueden afectar tu vivienda y sus contenidos. Esto incluye cobertura para daños estructurales causados por eventos como incendios, inundaciones, robos, y desastres naturales. Además, puede cubrir responsabilidad civil en caso de que alguien resulte herido dentro de tu propiedad. El seguro de hogar te ofrece tranquilidad al proteger tu inversión más importante y tus pertenencias personales.",
         "target": "hogar"
     },
     {
@@ -11,6 +12,7 @@
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710271012/mkjr_-2zUjvV0M9dQ-unsplash_1_aqnprr.jpg",
         "title": "Accidentes personales",
         "description": "Asegurá tu bienestar y el de tu familia con nuestro seguro de accidentes personales.",
+        "text":"El seguro de accidentes personales proporciona cobertura financiera en caso de lesiones o muerte accidental. Esta póliza puede incluir indemnización por gastos médicos, hospitalización, cirugías, y rehabilitación debido a un accidente. También puede ofrecer beneficios por incapacidad temporal o permanente, así como una suma asegurada en caso de fallecimiento accidental. El seguro de accidentes personales es fundamental para protegerte a vos y a tu familia de los imprevistos que pueden ocurrir en la vida cotidiana.",
         "target": "accidentes-personales"
         
     },
@@ -19,6 +21,7 @@
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710270356/guido-jansen-Nz-zAt4qiuU-unsplash_wft6dx.jpg",
         "title": "Incendio",
         "description": "Asegurá tus propiedades con nuestra cobertura contra incendios.",
+        "text":"El seguro de incendio está diseñado específicamente para proteger tu propiedad contra los daños causados por incendios y sus consecuencias. Esta póliza cubre la estructura de la propiedad, así como también los contenidos afectados por el fuego. Además, puede incluir cobertura para gastos de alojamiento temporal mientras se realizan las reparaciones necesarias. El seguro de incendio es esencial para garantizar la seguridad financiera en caso de un evento devastador como un incendio.",
         "target": "incendio"
     },
     {
@@ -26,6 +29,7 @@
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711385286/medico_fqv3ub.jpg",
         "title": "Responsabilidad Civil Profesional",
         "description": "Protegé tu carrera y tu negocio con nuestro seguro de responsabilidad civil profesional.",
+        "text":"El seguro de responsabilidad civil profesional ofrece protección a profesionales contra reclamaciones de terceros relacionadas con errores, negligencias, omisiones, o mala praxis en la prestación de servicios profesionales. Esta póliza cubre los costos legales asociados con la defensa de reclamaciones y puede proporcionar indemnización por daños y perjuicios si se determina que el asegurado es responsable. El seguro de responsabilidad civil profesional es esencial para proteger la reputación y los activos de un profesional en caso de disputas legales.",
         "target": "responsabilidad-civil-profesional"
     }
 ]

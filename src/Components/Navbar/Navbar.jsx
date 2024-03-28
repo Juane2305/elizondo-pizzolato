@@ -78,9 +78,9 @@ const Navbar = () => {
                       <span className="absolute -inset-0.5" />
                       <span className="sr-only">Open main menu</span>
                       {open ? (
-                        <XMarkIcon className='block h-10 w-10 text-[#218B7D] py-1 px-2 bg-white rounded-full shadow-xl z-30' aria-hidden="true" />
+                        <XMarkIcon className='block h-10 w-10 text-[#0830A6] py-1 px-2 bg-white rounded-full shadow-xl z-30' aria-hidden="true" />
                       ) : (
-                        <Bars3Icon className='block h-10 w-10 text-[#218B7D] py-1 px-2 bg-white rounded-full shadow-xl z-30' aria-hidden="true" />
+                        <Bars3Icon className='block h-10 w-10 text-[#0830A6] py-1 px-2 bg-white rounded-full shadow-xl z-30' aria-hidden="true" />
                       )}
                     </Disclosure.Button>
                   </div>
@@ -88,24 +88,24 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <Disclosure.Panel className="lg:hidden h-screen z-10">
-            <div className="space-y-4 px-6 pb-3 pt-2 flex flex-col justify-center items-center">
-              {navigation.map((item) => (
-                <Disclosure.Button
-                key={item.id}
-                as="a"
-                href={item.href}
-                className={classNames(
-                  item.current ? 'text-[#66a295]' : 'text-[#218B7D] hover:text-[#66a295] transform hover:scale-105 duration-500',
-                  'block rounded-full text-[#218B7D] font-bold shadow-md px-3 py-2 text-base text-center bg-white w-[10rem]'
-                  )}
-                  aria-current={item.current ? 'page' : undefined}
-                  >
-                  {item.name}
-                </Disclosure.Button>
-              ))}
-            </div>
-          </Disclosure.Panel>
+            <Disclosure.Panel className="lg:hidden h-screen z-10">
+              <div className="space-y-4 px-6 pb-3 pt-2 flex flex-col justify-center items-center">
+                {navigation.map((item) => (
+                  <Disclosure.Button
+                  key={item.id}
+                  as="a"
+                  href={item.href}
+                  className={classNames(
+                    item.current ? 'text-[#0830A6]' : 'text-[#0830A6] hover:text-[#242c4296] transform hover:scale-105 duration-500',
+                    'block rounded-full text-[#0830A6] font-bold shadow-md px-3 py-2 text-base text-center bg-white w-[10rem]'
+                    )}
+                    aria-current={item.current ? 'page' : undefined}
+                    >
+                    {item.name}
+                  </Disclosure.Button>
+                ))}
+              </div>
+            </Disclosure.Panel>
         </>
       )}
     </Disclosure>

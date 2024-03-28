@@ -4,6 +4,7 @@
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710989621/prevencionsart2_w3rksf.jpg",
         "title": "A.R.T.",
         "description": "Asegurá tu personal con el respaldo de la aseguradora número uno en situación financiera.",
+        "text":"Las Aseguradoras de Riesgos del Trabajo brindan cobertura a empleadores y trabajadores en caso de accidentes laborales o enfermedades profesionales. Esta cobertura incluye indemnización por lesiones, enfermedades ocupacionales, rehabilitación y, en algunos casos, beneficios por incapacidad permanente o fallecimiento. Las A.R.T. son fundamentales para cumplir con las obligaciones legales relacionadas con la seguridad y la salud ocupacional en el lugar de trabajo.",
         "target": "art"
     },
     {
@@ -11,6 +12,7 @@
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710271012/mkjr_-2zUjvV0M9dQ-unsplash_1_aqnprr.jpg",
         "title": "Accidentes personales",
         "description": "Asegurá tu bienestar y el de tu familia con nuestro seguro de accidentes personales.",
+        "text":"El seguro de accidentes personales para empresas proporciona cobertura en caso de lesiones o muerte accidental de empleados mientras están en el trabajo o realizando actividades laborales relacionadas. Esta póliza puede incluir beneficios por gastos médicos, hospitalización, cirugías, rehabilitación, e indemnización por incapacidad temporal o permanente. El seguro de accidentes personales es esencial para proteger tanto a los empleados como a la empresa en caso de accidentes laborales.",
         "target": "accidentes-personales"
     },
     {
@@ -18,6 +20,7 @@
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710989792/stock-3237514_1920-e1568822162583_zis8eh.jpg",
         "title": "Integral de comercio",
         "description": "Te ofrecemos una solución totalmente flexible para proteger los bienes de tu oficina, negocio o industria.",
+        "text":"El seguro integral de comercio ofrece protección contra una variedad de riesgos que pueden afectar a las empresas minoristas, mayoristas o de servicios. Esta póliza puede incluir cobertura para daños a la propiedad, robo, responsabilidad civil, interrupción del negocio, y pérdida de ingresos. El seguro integral de comercio es fundamental para proteger los activos y la continuidad operativa de un negocio en caso de eventos imprevistos.",
         "target": "integral-de-comercio"
     },
     {
@@ -25,6 +28,7 @@
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710270356/guido-jansen-Nz-zAt4qiuU-unsplash_wft6dx.jpg",
         "title": "Incendio",
         "description": "Asegurá tus propiedades con nuestra cobertura contra incendios.",
+        "text":"El seguro de incendio para empresas brinda cobertura contra los daños causados por incendios y sus consecuencias. Esta póliza cubre la estructura de la propiedad, los contenidos afectados por el fuego, y puede incluir gastos de alojamiento temporal y pérdida de ingresos debido a la interrupción del negocio. El seguro de incendio es esencial para proteger la propiedad y los activos de una empresa contra uno de los riesgos más devastadores.",
         "target": "incendio"
     },
     {
@@ -32,6 +36,7 @@
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710271163/seguro-responsabilidad-civil-empresas_njhcih.webp",
         "title": "Responsabilidad Civil Profesional",
         "description": "Protegé tu carrera y tu negocio con nuestro seguro de responsabilidad civil profesional.",
+        "text":"El seguro de responsabilidad civil profesional, también conocido como seguro de errores y omisiones, ofrece protección a profesionales y empresas contra reclamaciones de terceros relacionadas con errores, negligencias, omisiones, o mala praxis en la prestación de servicios profesionales. Esta póliza cubre los costos legales asociados con la defensa de reclamaciones y puede proporcionar indemnización por daños y perjuicios si se determina que el asegurado es responsable. El seguro de responsabilidad civil profesional es esencial para proteger la reputación y los activos de un profesional o empresa en caso de disputas legales.",
         "target": "responsabilidad-civil-profesional"
     },
     {
@@ -39,6 +44,7 @@
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710989863/seguros-caucion_egjjfa.jpg",
         "title": "Caución",
         "description": "Para todas aquellas personas físicas o jurídicas que desarrollan actividades comerciales o profesionales.",
+        "text":"El seguro de caución garantiza el cumplimiento de obligaciones financieras o legales de una empresa ante terceros. Esto puede incluir el cumplimiento de contratos, el pago de impuestos o tasas, la liberación de mercancías en aduanas, o la participación en licitaciones públicas. El seguro de caución es una herramienta útil para empresas que desean demostrar su capacidad financiera y cumplir con sus compromisos comerciales y legales.",
         "target": "caucion"
     },
     {
@@ -46,6 +52,7 @@
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710989881/medio-transporte_jzcoic.webp",
         "title": "Transporte de mercaderías",
         "description": "Asegura tu carga de aquellas pérdidas que puedan sufrir durante el transporte terrestre, marítimo, y/o aéreo.",
+        "text":"El seguro de transporte de mercaderías proporciona cobertura contra pérdidas o daños a la carga durante su transporte por tierra, mar o aire. Esta póliza cubre los riesgos asociados con accidentes, robo, daños causados por condiciones climáticas adversas, y otros eventos imprevistos. El seguro de transporte de mercaderías es esencial para proteger el valor de la carga y mitigar los riesgos inherentes al proceso de transporte.",
         "target": "transporte-de-mercaderias"
     },
     {
@@ -53,6 +60,7 @@
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710990082/LPS-Seguro-Tecnico-Capacitacion_bqlk8l.jpg",
         "title": "Seguro técnico",
         "description": "Protegé tus equipos electrónicos, maquinarias, equipos médicos o trabajos de construcción y montaje.",
+        "text":"El seguro técnico, también conocido como seguro de riesgos de ingeniería, ofrece cobertura contra pérdidas o daños materiales durante la construcción, instalación, o mantenimiento de proyectos de ingeniería, como edificios, obras civiles, maquinaria, y equipos. Esta póliza cubre los riesgos relacionados con errores de diseño, fallas de construcción, y eventos imprevistos durante la ejecución del proyecto. El seguro técnico es esencial para proteger la inversión y garantizar la finalización exitosa de proyectos de ingeniería.",
         "target": "seguro-tecnico"
     },
     {
@@ -60,6 +68,7 @@
         "image": "https://res.cloudinary.com/dreso9ye9/image/upload/v1710990276/hombre-tablet-frente_bzy91q.jpg",
         "title": "Vida colectivo",
         "description": "Coberturas de contratación e indemnización obligatoria que te permiten cumplir con las normas específicas para cada actividad.",
+        "text":"El seguro de vida colectivo proporciona cobertura de vida a un grupo de personas, generalmente empleados de una empresa u organización. Esta póliza puede incluir beneficios por fallecimiento, invalidez total o permanente, y enfermedades graves. El seguro de vida colectivo es una prestación valiosa que las empresas pueden ofrecer a sus empleados como parte de su paquete de beneficios, brindando seguridad financiera a los trabajadores y sus familias.",
         "target": "vida-colectivo"
     }
 ]

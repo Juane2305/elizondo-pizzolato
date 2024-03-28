@@ -13,7 +13,7 @@ const Profesionales = () => {
     <div className='bg-[#f2f2f2]'>
       <div className='relative h-[30rem]'>
         <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710808603/Pizzolato/kelly-sikkema-XXherw1ujoI-unsplash_omdnzx.jpg" alt="" className='h-full w-full object-cover brightness-[.35]'/>
-        <h1 className='absolute bottom-10 left-5 lg:left-10 text-white font-bold text-4xl lg:text-6xl'>Seguros de retiro</h1>
+        <h1 className='absolute bottom-16 left-5 lg:left-10 text-white font-bold text-4xl lg:text-6xl'>Seguros de retiro</h1>
         <p className='absolute bottom-5 left-5 lg:left-10 text-white lg:text-xl'><a href="/" className='text-[#f29494] hover:text-[#0830A6] duration-300'>HOME</a>/RETIRO</p>
       </div>
       <section className='flex flex-col justify-center items-center gap-5 lg:py-20 py-10'>
@@ -53,7 +53,7 @@ const Profesionales = () => {
             </div>
         </article>
         <article  className='w-1/2 relative lg:block hidden'>
-            <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710769868/Pizzolato/abuelos-conviviendo-con-nietos-gettyimages_evijnl.jpg" alt="" className='shadow-xl rounded-tl-[6rem] h-full'/>
+            <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1711604506/abuelos-conviviendo-con-nietos-gettyimages_evijnl_upscayl_2x_realesrgan-x4plus_zjyqpp.jpg" alt="" className='shadow-xl rounded-tl-[6rem] h-full'/>
             <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710770589/Pizzolato/Rectangle_5_3_ttjdnl.svg" alt="" className='absolute -bottom-8 right-0 -z-10 animate-pulse'/>
             <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710770485/Pizzolato/asset_4_kfeblu.svg" alt="" className='absolute -top-10 -right-10 -z-10 animate-pulse w-28'/>
         </article>
