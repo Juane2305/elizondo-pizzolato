@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='bg-[#0830A6] pt-14 shadow-xl z-20'>
             <div className='flex justify-between items-center px-10'>
                 <section>
-                    <h1 className='text-white'>logo</h1>
+                <a href='/' className=" sm:flex z-30 duration-300 cursor-pointer py-2 px-4 hover:animate-jiggle  font-bold"><img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1711645269/Dise%C3%B1o_sin_t%C3%ADtulo__32_-removebg-preview_upscayl_4x_realesrgan-x4plus_lum9qe.png" alt="" className='w-48'/></a>
                 </section>
                 <section className='lg:flex lg:flex-row-reverse flex flex-col justify-center items-center text-white'>
                     <div className='flex justify-center items-center gap-3'>

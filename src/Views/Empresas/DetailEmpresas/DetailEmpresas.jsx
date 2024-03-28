@@ -16,7 +16,7 @@ const DetailEmpresas = () => {
     <div className='bg-[#f2f2f2]'>
       <div className='relative h-[30rem] z-20'>
         <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710808603/Pizzolato/kelly-sikkema-XXherw1ujoI-unsplash_omdnzx.jpg" alt="" className='h-full w-full object-cover brightness-[.35]'/>
-        <h1 className='absolute bottom-16 left-5 lg:left-10 text-white font-bold text-4xl lg:text-6xl'>Seguros para {empresaDetail.title.toLowerCase()}</h1>
+        <h1 className='absolute bottom-16 left-5 lg:left-10 text-white font-bold text-4xl lg:text-6xl'>{empresaDetail.title}</h1>
         <p className='absolute bottom-5 left-5 lg:left-10 text-white lg:text-xl'><Link to="/" className='text-[#f29494] hover:text-white duration-300'>HOME</Link>/<Link to='/empresas' className='text-[#f29494] hover:text-white duration-300'>EMPRESAS</Link>/{empresaDetail.title.toUpperCase()}</p>
       </div>
       <section className='flex flex-col justify-center items-center gap-5 py-10 bg-[#f29494] shadow-xl relative z-10'>

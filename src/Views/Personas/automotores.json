@@ -3,6 +3,7 @@
         "id": 1,
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710263333/StockSnap_LDB9JJWXQU_1_dc7h9q.jpg",
         "title": "Automotores",
+        "nombre":"vehículo",
         "description": "Asegurá tu vehículo con la mejor cotización del mercado",
         "target": "automotores"
     },
@@ -10,6 +11,7 @@
         "id": 2,
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711385196/viaje-motojpg_sn3o2l.jpg",
         "title": "Motos",
+        "nombre":"moto",
         "description": "Seguridad sobre dos ruedas. Asegurá tu moto con nosotros.",
         "target": "motos"
     }

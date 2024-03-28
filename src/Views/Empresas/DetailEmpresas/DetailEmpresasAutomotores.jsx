@@ -27,7 +27,7 @@ const DetailEmpresasAutomotores = () => {
       <section className='flex flex-col justify-center items-center gap-5 pt-20 pb-10 relative z-10 cursor-default'>
         <h2 className='lg:text-5xl font-bold text-[#0830A6] lg:w-[70%] lg:px-0 px-5 text-3xl text-center'>{automotoresDetail.description}</h2>
         <p className='px-5 lg:px-0 lg:w-[60%] text-center text-gray-500 font-medium'>
-        ¡Protegé tu camino! Aseguramos tu <span className='text-[#0830A6]'>vehículo</span> para brindarte la <span className='text-[#0830A6]'>tranquilidad</span> que merecés al conducir
+        Optimizá la protección de tu {automotoresDetail.nombre} con <span className='text-[#0830A6] opacity-70'>asesoramiento personalizado</span> de expertos en las principales compañías del mercado automotriz.
         </p>
       </section>
       <section className='flex justify-center items-center flex-wrap gap-5 px-20 bg-gradient-to-tr from-[#f4a1a1] to-[#f29494] py-5 cursor-default'>

@@ -4,7 +4,7 @@
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710263562/StockSnap_20HXQ0Y5YI_1_off4th.jpg",
         "title": "Hogar",
         "description": "Protegé tu hogar y tus bienes con nuestro seguro para propiedades.",
-        "text":"El seguro de hogar brinda protección contra una variedad de riesgos que pueden afectar tu vivienda y sus contenidos. Esto incluye cobertura para daños estructurales causados por eventos como incendios, inundaciones, robos, y desastres naturales. Además, puede cubrir responsabilidad civil en caso de que alguien resulte herido dentro de tu propiedad. El seguro de hogar te ofrece tranquilidad al proteger tu inversión más importante y tus pertenencias personales.",
+        "text":"El seguro de hogar brinda protección contra una variedad de riesgos que pueden afectar tu vivienda y sus contenidos (incendios de edificio, incendio de contenido, robo, responsabilidad civil, cristales, etc.) Tu hogar protegido, asesoramiento personalizado y planes a la medida de tus necesidades.",
         "target": "hogar"
     },
     {
@@ -12,7 +12,7 @@
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710271012/mkjr_-2zUjvV0M9dQ-unsplash_1_aqnprr.jpg",
         "title": "Accidentes personales",
         "description": "Asegurá tu bienestar y el de tu familia con nuestro seguro de accidentes personales.",
-        "text":"El seguro de accidentes personales proporciona cobertura financiera en caso de lesiones o muerte accidental. Esta póliza puede incluir indemnización por gastos médicos, hospitalización, cirugías, y rehabilitación debido a un accidente. También puede ofrecer beneficios por incapacidad temporal o permanente, así como una suma asegurada en caso de fallecimiento accidental. El seguro de accidentes personales es fundamental para protegerte a vos y a tu familia de los imprevistos que pueden ocurrir en la vida cotidiana.",
+        "text":"El seguro de accidentes personales proporciona cobertura financiera en caso de lesiones o muerte accidental. Esta póliza puede incluir indemnización por gastos médicos, hospitalización, cirugías, y rehabilitación debido a un accidente. También puede ofrecer beneficios por incapacidad temporal o permanente, así como una suma asegurada en caso de fallecimiento accidental. El seguro de accidentes personales está destinado a personas con actividad laboral independiente o para personal de trabajo transitorio.",
         "target": "accidentes-personales"
         
     },
@@ -29,7 +29,7 @@
         "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711385286/medico_fqv3ub.jpg",
         "title": "Responsabilidad Civil Profesional",
         "description": "Protegé tu carrera y tu negocio con nuestro seguro de responsabilidad civil profesional.",
-        "text":"El seguro de responsabilidad civil profesional ofrece protección a profesionales contra reclamaciones de terceros relacionadas con errores, negligencias, omisiones, o mala praxis en la prestación de servicios profesionales. Esta póliza cubre los costos legales asociados con la defensa de reclamaciones y puede proporcionar indemnización por daños y perjuicios si se determina que el asegurado es responsable. El seguro de responsabilidad civil profesional es esencial para proteger la reputación y los activos de un profesional en caso de disputas legales.",
+        "text":"El seguro de responsabilidad civil profesional ofrece protección contra reclamos de terceros relacionadas con eventos desafortunados derivados de la actividad profesional. Consulta con nosotros, hay un seguro a medida para cada tipo de actividad.",
         "target": "responsabilidad-civil-profesional"
     }
 ]
