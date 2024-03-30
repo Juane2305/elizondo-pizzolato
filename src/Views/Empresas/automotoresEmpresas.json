@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1710263333/StockSnap_LDB9JJWXQU_1_dc7h9q.jpg",
+        "title": "Automotores",
+        "nombre":"vehículo",
+        "description": "Asegurá tu flota con la mejor cotización del mercado",
+        "text": "Asegurá la flota de tu empresa con la cobertura y los costos más conveniente para cada vehículo en particular, teniendo en cuenta las necesidades específicas de cada caso.",
+        "target": "automotores"
+    },
+    {
+        "id": 2,
+        "image": "https://res.cloudinary.com/dfschbyq2/image/upload/v1711385196/viaje-motojpg_sn3o2l.jpg",
+        "title": "Motos",
+        "nombre":"moto",
+        "description": "Seguridad sobre dos ruedas. Asegurá tu moto con nosotros",
+        "text": "Optimizá la protección de tu moto con asesoramiento personalizado de expertos en las principales compañías del mercado automotriz",
+        "target": "motos"
+    }
+]

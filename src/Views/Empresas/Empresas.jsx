@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import empresas from '../Empresas/empresas.json'
 import { useEffect } from 'react';
+import automotoresEmpresas from '../Empresas/automotoresEmpresas.json'
 
 const Empresas = () => {
 
@@ -26,6 +27,17 @@ const Empresas = () => {
                 </p>
             </section>
             <section className='flex justify-center items-center gap-10 flex-wrap pb-10 px-5 lg:px-0'>
+                {automotoresEmpresas.map((automotor) =>(
+                <Link to={`/empresas/vehiculos/${automotor.target}`} key={automotor.id} className='w-[30rem] h-[15rem] flex justify-between items-center gap-4 bg-white shadow-xl hover:scale-[1.03] duration-300 z-10'>
+                    <div className='w-1/2 pl-5 flex flex-col gap-2'>
+                    <h2 className='text-[#0830A6] font-bold text-xl lg:text-2xl'>{automotor.title}</h2>
+                    <p className='text-gray-500 text-sm font-medium'>{automotor.description}</p>
+                    </div>
+                    <div className='border-l-[1rem] border-[#f29494] rounded-bl-[15rem] w-1/2 h-full'>
+                    <img src={automotor.image} alt="" className='w-full h-full object-cover rounded-bl-[15rem]'/>
+                    </div>
+                </Link>
+                ))}
                 {empresas.map((empresa) =>(
                 <Link to={`/empresas/${empresa.target}`} key={empresa.id} className='w-[30rem] h-[15rem] flex justify-between items-center gap-4 bg-white shadow-xl hover:scale-[1.03] duration-300 z-10'>
                     <div className='w-1/2 pl-5 flex flex-col gap-2'>
