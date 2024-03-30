@@ -11,7 +11,7 @@ const Hero = () => {
                 <a href="#seguros" className='bg-[#0830A6] p-2 sm:p-4 text-sm sm:text-base text-white font-bold border-4 border-[#0830A6] hover:bg-transparent hover:border-[#F29494] hover:text-[#F29494] duration-500'>Opciones de seguros</a>
             </section>
             <section className='lg:mt-40 lg:w-[75rem] 2xl:w-[75rem] 2xl:h-[45rem] lg:h-[40rem] border-b-[1rem] lg:border-b-0 rounded-t-full lg:rounded-t-none lg:rounded-bl-[26rem] lg:rounded-tl-[6rem] lg:border-l-[1rem] border-[#F29494] relative bg-gradient-to-tr from-[#f4a1a190] to-[#f29494af]'>
-                <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1711603985/iglesia-cristiana-bogota_nywszv_upscayl_2x_realesrgan-x4plus_n3wxlp.png" alt="" className='w-full h-full object-cover lg:rounded-bl-[25rem] lg:rounded-tl-[5rem]'/>
+                <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1711776163/listo_aozmvb.png" alt="" className='w-full h-full object-cover lg:rounded-bl-[25rem] lg:rounded-tl-[5rem]'/>
             </section>
         </div>
     );

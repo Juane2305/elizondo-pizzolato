@@ -60,11 +60,11 @@ const Contact = () => {
           <div className='pt-5 lg:flex flex-col gap-5 w-full hidden'>
               <article className='bg-white shadow-xl p-4 border-r-[2rem] rounded-tr-[5rem] border-[#f29494]'>
                 <h3 className='text-xl font-bold text-[#0830A6]'>Correo electrónico</h3>
-                <p className='font-medium text-gray-500 text-sm'>helvio.elizondo@yahoo.com.ar</p>
+                <p className='font-medium text-gray-500 text-sm'>pizzolatoelizondo.seguros@gmail.com</p>
               </article>
               <article className='bg-white shadow-xl p-4 border-r-[2rem] rounded-tr-[5rem] border-[#f29494]'>
                 <h3 className='text-xl font-bold text-[#0830A6]'>Celular</h3>
-                <p className='font-medium text-gray-500 text-sm'>+542613677606</p>
+                <p className='font-medium text-gray-500 text-sm'>+542613674277</p>
               </article>
           </div>
         </article>

@@ -26,7 +26,7 @@ const Ubicacion = () => {
                     <h2 className='text-[#0830A6] text-3xl font-bold text-start lg:flex hidden'>¿Cómo encontrarnos?</h2>
                     <div className='lg:flex flex-col gap-2 hidden'>
                         <p className='flex gap-2 items-center text-sm opacity-60 font-medium'><img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710725705/Pizzolato/map-pin-solid_ay1yua.svg" alt="" className='w-4'/>Ozamis 1045 , Maipú, Mendoza.</p>
-                        <p className='flex gap-2 items-center text-sm opacity-60 font-medium'><img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710725699/Pizzolato/envelope-solid_oo10yz.svg" alt="" className='w-4'/>helvio.elizondo@yahoo.com.ar.</p>
+                        <p className='flex gap-2 items-center text-sm opacity-60 font-medium'><img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710725699/Pizzolato/envelope-solid_oo10yz.svg" alt="" className='w-4'/>pizzolatoelizondo.seguros@gmail.com</p>
                     </div>
                     <div className='flex flex-col lg:justify-start lg:items-start justify-center items-center gap-2'>
                         <h2 className='text-[#0830A6] text-xl font-bold'>Horarios de atención</h2>

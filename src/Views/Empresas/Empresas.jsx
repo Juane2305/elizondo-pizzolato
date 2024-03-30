@@ -23,7 +23,7 @@ const Empresas = () => {
                 <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710860408/Pizzolato/asset_7_xdpjnm.svg" alt="" className='absolute -z-50 right-0 w-[25rem] rotate-180 top-[40rem] opacity-60 hidden lg:block'/>
                 <h2 className='text-3xl lg:text-5xl px-5 lg:px-0 text-center font-bold text-[#0830A6]'>Protegé tu vida y tus bienes</h2>
                 <p className='w-full px-5 lg:px-0 lg:w-[60%] text-center text-gray-500 font-medium'>
-                Enfrentá el futuro con confianza sabiendo que <span className='text-[#0830A6]'>estás protegido</span>. Nuestros seguros ofrecen <span className='text-[#0830A6]'>tranquilidad y seguridad</span> para vos y tu familia en todas las áreas importantes de tu vida, desde tu hogar hasta tu vehículo y más allá. Con coberturas flexibles y atención personalizada, te brindamos la tranquilidad que necesitas para <span className='text-[#0830A6]'>vivir sin preocupaciones</span>
+                Las mejores opciones de cobertura para proteger tanto al patrimonio de tu empresa como a su personal.
                 </p>
             </section>
             <section className='flex justify-center items-center gap-10 flex-wrap pb-10 px-5 lg:px-0'>
