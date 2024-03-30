@@ -5,6 +5,7 @@ const WhatsappButton = () => {
 
   const handleConsultClick = () => {
 
+    
     const whatsappLink = `https://wa.me/+542613674277`;
 
     window.location.href = whatsappLink;

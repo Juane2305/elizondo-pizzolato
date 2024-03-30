@@ -10,6 +10,15 @@ const PlanFuturo = () => {
         window.scrollTo(0, 0);
       }, []);
 
+      const handleConsultClick = () => {
+
+        let message = "Hola, me gustaria obtener mas información sobre el Plan Futuro"
+        const encodedMessage = encodeURIComponent(message);
+        const whatsappLink = `https://wa.me/+542613674277?text=${encodedMessage}`;
+    
+        window.location.href = whatsappLink;
+    };
+
     return (
         <div className='pt-28 bg-[url("https://res.cloudinary.com/dfschbyq2/image/upload/v1709936680/Dise%C3%B1o_sin_t%C3%ADtulo_23_dfxcuw.png")] bg-center bg-no-repeat bg-cover bg-fixed'>
             <Link to='/retiro' className='hidden lg:block fixed ml-10 font-bold text-green-600 border-2 border-green-600 py-2 px-4 shadow-md hover:text-white hover:bg-green-500 duration-300'>Volver</Link>
@@ -60,7 +69,7 @@ const PlanFuturo = () => {
                         </article>
                     </div>
                 </div>
-                <button className='my-10 font-bold text-white bg-green-700 p-4 shadow-xl hover:bg-green-400 duration-300'><a href="">Pedir más información</a></button>
+                <button onClick={handleConsultClick} className='my-10 font-bold text-white bg-green-700 p-4 shadow-xl hover:bg-green-400 duration-300'><a href="">Pedir más información</a></button>
             </section>
         </div>
     );
