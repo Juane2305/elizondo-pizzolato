@@ -1,17 +1,68 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import { Link, useParams } from 'react-router-dom';
 import personas from '../personas.json'
 import { useEffect } from 'react';
+import Swal from 'sweetalert2';
+import emailjs from '@emailjs/browser';
 
 const DetailPersonas = () => {
 
   useEffect(() => {
-    // Scroll hacia arriba cuando se monta el componente
     window.scrollTo(0, 0);
   }, []);
 
   const { target } = useParams(); 
   const personaDetail = personas.find(persona => persona.target === target);
+
+  const [data, setData] = useState({
+    username: '',
+    email: '',
+    phone: "",
+    select: "",
+    message: "",
+    contactMethod: "", 
+  });
+
+  const refForm = useRef();
+
+  const handleChange = (event) => {
+    const { name, value, type, checked } = event.target;
+    setData((prevData) => ({
+      ...prevData,
+      [name]: type === "checkbox" ? (checked ? value : "") : value,
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const serviceId = 'service_b5zdp5x';
+    const templateId = 'template_25a36pj';
+    const publicKey = 'm4YSzPPXK8b8NlFwv';
+
+    emailjs.sendForm(serviceId, templateId, refForm.current, publicKey)
+      .then((result) => {
+        Swal.fire({
+          title: 'Su consulta se ha enviado con éxito',
+          icon: 'success',
+        });
+        console.log(result.text);
+      }, () => {
+        Swal.fire({
+          title: 'Error al enviar consulta',
+          icon: 'error',
+        });
+      });
+
+    setData({
+      username: '',
+      email: '',
+      phone: "",
+      select: "",
+      message: "",
+      contactMethod: "", 
+    });
+  };
 
   return (
     <div className='bg-[#f2f2f2]'>
@@ -32,33 +83,79 @@ const DetailPersonas = () => {
                 <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710816213/Pizzolato/Vector_1_scvdbk.svg" alt="" className='absolute top-0 right-20 -z-10 w-[20rem] animate-pulse'/>
         </div>
         <div className='lg:w-[50%] pt-10 flex flex-col gap-3'>
-          <form className='lg:w-[35rem] flex flex-col gap-5'>
+          <form ref={refForm} onSubmit={handleSubmit} className='lg:w-[35rem] flex flex-col gap-5'>
             <h2 className='text-[#0830A6] font-bold text-2xl text-center lg:text-start'>Cotizá gratis con nosotros</h2>
-            <div className='flex flex-col justify-center lg:flex lg:flex-row lg:justify-between items-center gap-5'>
-                <div className='flex flex-col gap-2 w-full'>
-                  <label className='font-bold text-[#0830A6]' htmlFor="username">Nombre *</label>
-                  <input type="text" placeholder='Ingresá tu nombre' className='text-sm font-medium focus:border-r-8 focus:border-[#f29494] focus:outline-none duration-300 rounded-tr-[5rem] outline-none p-4 shadow-md text-gray-500'/>
-                </div>
-                <div className='flex flex-col gap-2 w-full'>
-                  <label className='font-bold text-[#0830A6]' htmlFor="username">Celular *</label>
-                  <input type="email" placeholder='Ingresá tu celular' className='text-sm font-medium focus:border-r-8 focus:border-[#f29494] focus:outline-none duration-300 rounded-tr-[5rem] outline-none p-4 shadow-md text-gray-500'/>
-                </div>
-            </div>
-            <div className='flex flex-col gap-2 w-full'>
-                <label className='font-bold text-[#0830A6]' htmlFor="username">Correo electrónico *</label>
-                <input type="email" placeholder='Ingresá tu correo electrónico' className='text-sm font-medium focus:border-r-8 focus:border-[#f29494] focus:outline-none duration-300 rounded-tr-[5rem] outline-none p-4 shadow-md text-gray-500'/>
+            <div className='flex flex-col gap-2'>
+                <label className='font-bold text-[#0830A6]' htmlFor="username">Nombre *</label>
+                <input 
+                name='username'
+                id="username"
+                value={data.username}
+                onChange={handleChange}
+                type="text" placeholder='Ingresá tu nombre' className='text-sm font-medium focus:border-r-8 focus:border-[#f29494] focus:outline-none duration-300 rounded-tr-[5rem] outline-none p-4 shadow-md text-gray-500'/>
             </div>
             <div className='flex flex-col gap-2'>
+                <label className='font-bold text-[#0830A6]' htmlFor="email">Correo electrónico *</label>
+                <input
+                name='email'
+                id="email"
+                value={data.email}
+                onChange={handleChange} 
+                type="email" placeholder='Ingresá tu correo electrónico' className='text-sm font-medium focus:border-r-8 focus:border-[#f29494] focus:outline-none duration-300 rounded-tr-[5rem] outline-none p-4 shadow-md text-gray-500'/>
+            </div>
+            <div className='flex flex-col gap-2 w-full'>
+                <label className='font-bold text-[#0830A6]' htmlFor="phone">Celular *</label>
+                <input
+                  name='phone'
+                  id="phone"
+                  value={data.phone}
+                  onChange={handleChange}
+                  type="text" placeholder='Ingresá tu celular' className='text-sm font-medium focus:border-r-8 focus:border-[#f29494] focus:outline-none duration-300 rounded-tr-[5rem] outline-none p-4 shadow-md text-gray-500' />
+              </div>
+              <div className='flex flex-col gap-2'>
                 <label className='font-bold text-[#0830A6]' htmlFor="">Seleccione el seguro *</label>
-                <select name="" id="" className='w-full text-sm font-medium focus:border-r-8 focus:border-[#f29494] focus:outline-none duration-300 rounded-tr-[5rem] outline-none p-4 shadow-md text-gray-500 appearance-none cursor-pointer '>
-                    {personas.map(persona =>(
+                <select 
+                    name="select" 
+                    value={data.select} 
+                    onChange={handleChange} 
+                    className='w-full text-sm font-medium focus:border-r-8 focus:border-[#f29494] focus:outline-none duration-300 rounded-tr-[5rem] outline-none p-4 shadow-md text-gray-500 appearance-none cursor-pointer '
+                >
+                    {personas.map(persona => (
                         <option key={persona.id} value={persona.title}>{persona.title}</option>
                     ))}
                 </select>
             </div>
             <div className='flex flex-col gap-2'>
-                <label className='font-bold text-[#0830A6]' htmlFor="username">Consulta *</label>
-                <textarea placeholder='Escribí tu consulta' className='text-sm font-medium focus:border-r-8 focus:border-[#f29494] focus:outline-none duration-300 rounded-tr-[5rem] outline-none p-4 shadow-md text-gray-500'/>
+                <label className='font-bold text-[#0830A6]' htmlFor="message">Consulta *</label>
+                <textarea
+                name='message'
+                id="message"
+                value={data.message}
+                onChange={handleChange}  
+                placeholder='Escribí tu consulta' className='text-sm font-medium focus:border-r-8 focus:border-[#f29494] focus:outline-none duration-300 rounded-tr-[5rem] outline-none p-4 shadow-md text-gray-500'/>
+            </div>
+            <div className='flex flex-col gap-2'>
+              <label className='font-bold text-[#0830A6]'>Prefiero ser contactado por:</label>
+              <div className='flex gap-2'>
+                <input
+                  name='contactMethod'
+                  id="whatsapp"
+                  value="Whatsapp"
+                  checked={data.contactMethod === "Whatsapp"}
+                  onChange={handleChange}
+                  type="checkbox" />
+                <label className='text-sm font-semibold text-gray-700' htmlFor="whatsapp">Whatsapp</label>
+              </div>
+              <div className='flex gap-2'>
+                <input
+                  name='contactMethod'
+                  id="email"
+                  value="correo electrónico"
+                  checked={data.contactMethod === "correo electrónico"}
+                  onChange={handleChange}
+                  type="checkbox" />
+                <label className='text-sm font-semibold text-gray-700' htmlFor="email">Correo electrónico</label>
+              </div>
             </div>
             <button type='submit' className='w-full bg-[#0830A6] p-4 text-white font-bold border-4 border-[#0830A6] hover:bg-transparent hover:border-[#F29494] hover:text-[#F29494] duration-500'>
                 Enviar
