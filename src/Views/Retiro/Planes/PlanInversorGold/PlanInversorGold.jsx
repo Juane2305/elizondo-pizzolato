@@ -10,6 +10,15 @@ const PlanInversorGold = () => {
         window.scrollTo(0, 0);
       }, []);
 
+      const handleConsultClick = () => {
+
+        let message = "Hola, me gustaria obtener mas información sobre el Plan Inversor Gold"
+        const encodedMessage = encodeURIComponent(message);
+        const whatsappLink = `https://wa.me/+542613674277?text=${encodedMessage}`;
+    
+        window.location.href = whatsappLink;
+    };
+
     return (
         <div className='pt-28 bg-[url("https://res.cloudinary.com/dfschbyq2/image/upload/v1710184295/Dise%C3%B1o_sin_t%C3%ADtulo_26_twd6wf.png")] bg-center bg-no-repeat bg-cover bg-fixed'>
             <Link to='/retiro' className='hidden lg:block fixed ml-10 font-bold text-[#cca352] border-2 border-[#cca352] py-2 px-4 shadow-md hover:text-white hover:bg-[#dfb157] duration-300'>Volver</Link>
@@ -54,7 +63,7 @@ const PlanInversorGold = () => {
                         </article>
                     </div>
                 </div>
-                <button className='my-10 font-bold text-white bg-[#cca352] p-4 shadow-xl hover:bg-[#ebbf67] duration-300'><a href="">Pedir más información</a></button>
+                <button onClick={handleConsultClick} className='my-10 font-bold text-white bg-[#cca352] p-4 shadow-xl hover:bg-[#ebbf67] duration-300'><a href="">Pedir más información</a></button>
             </section>
         </div>
     );
