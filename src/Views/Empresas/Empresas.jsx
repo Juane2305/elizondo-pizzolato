@@ -21,7 +21,7 @@ const Empresas = () => {
             <section className='flex flex-col justify-center items-center gap-5 py-20 relative z-10'>
                 <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710860408/Pizzolato/asset_7_xdpjnm.svg" alt="" className='absolute -z-10 -left-16 w-[25rem] opacity-60 hidden lg:block'/>
                 <img src="https://res.cloudinary.com/dreso9ye9/image/upload/v1710860408/Pizzolato/asset_7_xdpjnm.svg" alt="" className='absolute -z-50 right-0 w-[25rem] rotate-180 top-[40rem] opacity-60 hidden lg:block'/>
-                <h2 className='text-3xl lg:text-5xl px-5 lg:px-0 text-center font-bold text-[#0830A6]'>Protegé tu vida y tus bienes</h2>
+                <h2 className='text-3xl lg:text-5xl px-5 lg:px-0 text-center font-bold text-[#0830A6]'>Protegé tu empresa</h2>
                 <p className='w-full px-5 lg:px-0 lg:w-[60%] text-center text-gray-500 font-medium'>
                 Las mejores opciones de cobertura para proteger tanto al patrimonio de tu empresa como a su personal.
                 </p>
