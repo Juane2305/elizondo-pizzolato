@@ -69,7 +69,7 @@ const PlanFuturo = () => {
                         </article>
                     </div>
                 </div>
-                <button onClick={handleConsultClick} className='my-10 font-bold text-white bg-green-700 p-4 shadow-xl hover:bg-green-400 duration-300'><a href="">Pedir más información</a></button>
+                <button onClick={handleConsultClick} className='my-10 font-bold text-white bg-green-700 p-4 shadow-xl hover:bg-green-400 duration-300'>Pedir más información</button>
             </section>
         </div>
     );
