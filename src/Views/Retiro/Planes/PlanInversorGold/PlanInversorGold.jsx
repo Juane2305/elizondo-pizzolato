@@ -59,7 +59,7 @@ const PlanInversorGold = () => {
                         <article className='flex justify-between items-center w-full'>
                             <p className='text-lg w-28'>En pesos</p>
                             <FaArrowRightLong className='size-12 text-[#cca352]'/>
-                            <span className='text-4xl text-end w-28'>298%</span>
+                            <span className='text-4xl text-end w-28'>324%</span>
                         </article>
                     </div>
                 </div>

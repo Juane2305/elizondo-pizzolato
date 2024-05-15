@@ -76,7 +76,7 @@ const PlanProyecto = () => {
                         <article className='flex justify-between items-center w-full'>
                             <p className='text-lg w-28'>En pesos</p>
                             <FaArrowRightLong className='size-12 text-orange-600'/>
-                            <span className='text-4xl text-end w-28'>264%</span>
+                            <span className='text-4xl text-end w-28'>287%</span>
                         </article>
                     </div>
                 </div>
