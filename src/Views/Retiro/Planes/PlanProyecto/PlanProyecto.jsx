@@ -61,6 +61,13 @@ const PlanProyecto = () => {
                     <p className='opacity-80 text-center pt-5'>En todo momento contás con la asistencia personalizada de tu asesor exclusivo. Para hacer realidad tus sueños, <span className='text-orange-600'>¡empezá a ahorrar hoy!</span></p>
                 </div>
             </section>
+            <div className='flex justify-center pt-10'>
+                <article className='flex flex-col lg:justify-center lg:items-start justify-center items-center text-[#79a471] shadow-md p-6 rounded-full w-[50%] lg:w-auto'>
+                    <span className='font-semibold opacity-80'>Inversión en Dólares</span>
+                    <p className='font-light'>Aporte inicial: <span className='font-semibold opacity-80'>U$S 1000.</span></p>
+                    <p className='font-light'>Aporte Mensual: <span className='font-semibold opacity-80'>Elegís el monto.</span></p>
+                </article>
+            </div>
             <section className='lg:pt-20 px-5 lg:px-0 pt-10 flex flex-col items-center'>
                 <div className='lg:w-[35%] flex flex-col justify-center items-center gap-5 shadow-xl p-5 duration-200'>
                     <div className='border-b-2 pb-2'>

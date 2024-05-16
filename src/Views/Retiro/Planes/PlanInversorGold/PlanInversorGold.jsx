@@ -38,7 +38,7 @@ const PlanInversorGold = () => {
                         </article>
                         <article className='flex flex-col lg:justify-center lg:items-start justify-center items-center text-[#79a471] shadow-md p-6 rounded-full w-[50%] lg:w-auto'>
                             <span className='font-semibold opacity-80'>Inversión en Dólares</span>
-                            <p className='font-light'>Aporte inicial: <span className='font-semibold opacity-80'>U$S 5000.</span></p>
+                            <p className='font-light'>Aporte inicial: <span className='font-semibold opacity-80'>U$S 2500.</span></p>
                             <p className='font-light'>Aporte Mensual: <span className='font-semibold opacity-80'>Elegís el monto.</span></p>
                         </article>
                     </section>
