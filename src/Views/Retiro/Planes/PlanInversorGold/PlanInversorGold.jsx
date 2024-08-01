@@ -33,7 +33,7 @@ const PlanInversorGold = () => {
                     <section className='lg:flex lg:flex-row lg:justify-around flex flex-col justify-center items-center pt-5 lg:pt-10 gap-5'>
                         <article className='flex flex-col lg:justify-center lg:items-start justify-center items-center text-blue-900 shadow-md p-6 rounded-full w-[50%] lg:w-auto'>
                             <span className='font-semibold opacity-80 '>Inversión en Pesos</span>
-                            <p className='font-light'>Aporte inicial: <span className='font-semibold opacity-80'>$ 100.000.</span></p>
+                            <p className='font-light'>Aporte inicial: <span className='font-semibold opacity-80'>$ 300.000.</span></p>
                             <p className='font-light'>Aporte Mensual: <span className='font-semibold opacity-80'>Elegís el monto.</span></p>
                         </article>
                         <article className='flex flex-col lg:justify-center lg:items-start justify-center items-center text-[#79a471] shadow-md p-6 rounded-full w-[50%] lg:w-auto'>
@@ -59,7 +59,7 @@ const PlanInversorGold = () => {
                         <article className='flex justify-between items-center w-full'>
                             <p className='text-lg w-28'>En pesos</p>
                             <FaArrowRightLong className='size-12 text-[#cca352]'/>
-                            <span className='text-4xl text-end w-28'>324%</span>
+                            <span className='text-4xl text-end w-28'>304%</span>
                         </article>
                     </div>
                 </div>
